@@ -1,0 +1,66 @@
+.M {/*Unique Matthew*/
+	color: black;
+}
+
+.R {/*Unique Mark*/
+	color: black;
+	}
+	
+.L {/*Unique Luke*/
+	color: black;
+	}
+	
+.A {/*Matthew and Mark*/
+	color: yellow;
+	}
+	
+.B {/*Mark and Luke*/
+	color: green;
+	}
+	
+.C {/*Matthew and Luke*/
+	color: magenta;
+	}
+	
+.T {/*Triple*/
+	color: blue;
+	}
+	
+.M1 { /*Unique Matthew Lemma*/
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+.R1 {/*Unique Mark Lemma*/
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+.L1 {/*Unique Luke Lemma*/
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+.A1 {/*Matthew and Mark Lemma*/
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.B1 {/*Mark and Luke Lemma*/
+	text-decoration: underline;
+	text-decoration-color: green;
+}
+
+.C1 {/*Matthew and Luke Lemma*/
+	text-decoration: underline;
+	text-decoration-color: magenta;
+}
+
+.T1 {/*Tripe Lemma*/
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+
+.contrastbkg {
+	background-color: lightgray;
+	}

@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table xmlns="syn">
+    <database></database>
+    <name>Pericopae</name>
+    <ddl><![CDATA[CREATE TABLE Pericopae (SynopsisNum INTEGER PRIMARY KEY, "Text Color" TEXT, "Lemma Color" TEXT, Aligned TEXT, Title TEXT, MattStart INTEGER, MattEnd INTEGER, VerseStartMatt INTEGER, VerseEndMatt INTEGER, MarkStart INTEGER, MarkEnd INTEGER, VerseStartMark INTEGER, VerseEndMark INTEGER, LukeStart INTEGER, LukeEnd INTEGER, VerseStartLuke INTEGER, VerseEndLuke INTEGER, JohnStart INTEGER, JohnEnd INTEGER, VerseStartJohn INTEGER, VerseEndJohn INTEGER, imageCaption TEXT, imageHREF TEXT, imageSRC TEXT, wordCountMatt INTEGER, wordCountMark INTEGER, wordCountLuke INTEGER, wordsUMT INTEGER, wordsURT INTEGER, wordsULT INTEGER, wordsMRT INTEGER, wordsMRL INTEGER, wordsRLT INTEGER, wordsRLL INTEGER, wordsMLT INTEGER, wordsMLL INTEGER, wordsTT INTEGER, wordsTL INTEGER, wordsTotal INTEGER, next INTEGER, previous INTEGER);]]></ddl>
+    <columns>
+        <column>
+            <name>SynopsisNum</name>
+            <type>INTEGER</type>
+            <constraints>
+                <constraint>
+                    <type>PRIMARY KEY</type>
+                    <definition>PRIMARY KEY</definition>
+                </constraint>
+            </constraints>
+        </column>
+        <column>
+            <name>Text Color</name>
+            <type>TEXT</type>
+        </column>
+        <column>
+            <name>Lemma Color</name>
+            <type>TEXT</type>
+        </column>
+        <column>
+            <name>Aligned</name>
+            <type>TEXT</type>
+        </column>
+        <column>
+            <name>Title</name>
+            <type>TEXT</type>
+        </column>
+        <column>
+            <name>MattStart</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>MattEnd</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseStartMatt</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseEndMatt</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>MarkStart</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>MarkEnd</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseStartMark</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseEndMark</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>LukeStart</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>LukeEnd</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseStartLuke</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseEndLuke</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>JohnStart</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>JohnEnd</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseStartJohn</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>VerseEndJohn</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>imageCaption</name>
+            <type>TEXT</type>
+        </column>
+        <column>
+            <name>imageHREF</name>
+            <type>TEXT</type>
+        </column>
+        <column>
+            <name>imageSRC</name>
+            <type>TEXT</type>
+        </column>
+        <column>
+            <name>wordCountMatt</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordCountMark</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordCountLuke</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsUMT</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsURT</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsULT</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsMRT</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsMRL</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsRLT</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsRLL</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsMLT</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsMLL</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsTT</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsTL</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>wordsTotal</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>next</name>
+            <type>INTEGER</type>
+        </column>
+        <column>
+            <name>previous</name>
+            <type>INTEGER</type>
+        </column>
+    </columns>
+    <rows>
+        <row>
+            <value column="0">1</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">Prologue</value>
+            <value column="5">1</value>
+            <value column="6">1</value>
+            <value column="7">1</value>
+            <value column="8">1</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">1</value>
+            <value column="12">1</value>
+            <value column="13">1</value>
+            <value column="14">1</value>
+            <value column="15">1</value>
+            <value column="16">4</value>
+            <value column="17">1</value>
+            <value column="18">1</value>
+            <value column="19">1</value>
+            <value column="20">18</value>
+            <value column="21">Papyrus 75 containing John 1:1-16. 3rd Century, Vatican Library, P. Bodmer XIV-XV</value>
+            <value column="22">http://www.csntm.org/manuscript/View/GA_P75</value>
+            <value column="23">../images/papyrus_75a1.gif</value>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38">8</value>
+            <value column="39">2</value>
+            <value column="40" null="true"/>
+        </row>
+        <row>
+            <value column="0">2</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Promise of the Birth of John the Baptist</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">1</value>
+            <value column="14">1</value>
+            <value column="15">5</value>
+            <value column="16">25</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">3</value>
+            <value column="40">1</value>
+        </row>
+        <row>
+            <value column="0">3</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Annunciation</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">1</value>
+            <value column="14">1</value>
+            <value column="15">26</value>
+            <value column="16">38</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">4</value>
+            <value column="40">2</value>
+        </row>
+        <row>
+            <value column="0">4</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">Mary's Visit to Elizabeth</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">1</value>
+            <value column="14">1</value>
+            <value column="15">39</value>
+            <value column="16">56</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">5</value>
+            <value column="40">3</value>
+        </row>
+        <row>
+            <value column="0">5</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Birth of John the Baptist</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">1</value>
+            <value column="14">1</value>
+            <value column="15">57</value>
+            <value column="16">80</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">6</value>
+            <value column="40">4</value>
+        </row>
+        <row>
+            <value column="0">6</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Genealogy of Jesus</value>
+            <value column="5">1</value>
+            <value column="6">1</value>
+            <value column="7">2</value>
+            <value column="8">17</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">23</value>
+            <value column="16">38</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">7</value>
+            <value column="40">5</value>
+        </row>
+        <row>
+            <value column="0">7</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Birth of Jesus</value>
+            <value column="5">1</value>
+            <value column="6">1</value>
+            <value column="7">18</value>
+            <value column="8">25</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">2</value>
+            <value column="14">2</value>
+            <value column="15">1</value>
+            <value column="16">7</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">8</value>
+            <value column="40">6</value>
+        </row>
+        <row>
+            <value column="0">8</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Adoration of the Infant Jesus</value>
+            <value column="5">2</value>
+            <value column="6">2</value>
+            <value column="7">1</value>
+            <value column="8">12</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">2</value>
+            <value column="14">2</value>
+            <value column="15">8</value>
+            <value column="16">20</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">9</value>
+            <value column="40">7</value>
+        </row>
+        <row>
+            <value column="0">9</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Circumcision and Presentation in the Temple</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">2</value>
+            <value column="14">2</value>
+            <value column="15">21</value>
+            <value column="16">38</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">10</value>
+            <value column="40">8</value>
+        </row>
+        <row>
+            <value column="0">10</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Flight into Egypt and Return</value>
+            <value column="5">2</value>
+            <value column="6">2</value>
+            <value column="7">13</value>
+            <value column="8">21</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">11</value>
+            <value column="40">9</value>
+        </row>
+        <row>
+            <value column="0">11</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Childhood of Jesus at Nazareth</value>
+            <value column="5">2</value>
+            <value column="6">2</value>
+            <value column="7">22</value>
+            <value column="8">23</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">2</value>
+            <value column="14">2</value>
+            <value column="15">39</value>
+            <value column="16">40</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">12</value>
+            <value column="40">10</value>
+        </row>
+        <row>
+            <value column="0">12</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Boy Jesus in the Temple</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">2</value>
+            <value column="14">2</value>
+            <value column="15">41</value>
+            <value column="16">52</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">13</value>
+            <value column="40">11</value>
+        </row>
+        <row>
+            <value column="0">13</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">John the Baptist</value>
+            <value column="5">3</value>
+            <value column="6">3</value>
+            <value column="7">1</value>
+            <value column="8">6</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">2</value>
+            <value column="12">6</value>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">1</value>
+            <value column="16">6</value>
+            <value column="17">1</value>
+            <value column="18">1</value>
+            <value column="19">19</value>
+            <value column="20">23</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">14</value>
+            <value column="40">12</value>
+        </row>
+        <row>
+            <value column="0">14</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">John's Preaching of Repentance</value>
+            <value column="5">3</value>
+            <value column="6">3</value>
+            <value column="7">7</value>
+            <value column="8">10</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">7</value>
+            <value column="16">9</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">15</value>
+            <value column="40">13</value>
+        </row>
+        <row>
+            <value column="0">15</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">John Replies to Questioners</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">10</value>
+            <value column="16">14</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">16</value>
+            <value column="40">14</value>
+        </row>
+        <row>
+            <value column="0">16</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">John's Messianic Preaching</value>
+            <value column="5">3</value>
+            <value column="6">3</value>
+            <value column="7">11</value>
+            <value column="8">12</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">7</value>
+            <value column="12">8</value>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">15</value>
+            <value column="16">18</value>
+            <value column="17">1</value>
+            <value column="18">1</value>
+            <value column="19">24</value>
+            <value column="20">28</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">17</value>
+            <value column="40">15</value>
+        </row>
+        <row>
+            <value column="0">17</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Imprisionment of John</value>
+            <value column="5">14</value>
+            <value column="6">14</value>
+            <value column="7">3</value>
+            <value column="8">4</value>
+            <value column="9">6</value>
+            <value column="10">6</value>
+            <value column="11">17</value>
+            <value column="12">18</value>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">19</value>
+            <value column="16">20</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">18</value>
+            <value column="40">16</value>
+        </row>
+        <row>
+            <value column="0">18</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Baptism of Jesus</value>
+            <value column="5">3</value>
+            <value column="6">3</value>
+            <value column="7">13</value>
+            <value column="8">17</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">9</value>
+            <value column="12">11</value>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">21</value>
+            <value column="16">22</value>
+            <value column="17">1</value>
+            <value column="18">1</value>
+            <value column="19">29</value>
+            <value column="20">34</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">19</value>
+            <value column="40">17</value>
+        </row>
+        <row>
+            <value column="0">19</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Genealogy of Jesus</value>
+            <value column="5">1</value>
+            <value column="6">1</value>
+            <value column="7">1</value>
+            <value column="8">17</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">3</value>
+            <value column="14">3</value>
+            <value column="15">23</value>
+            <value column="16">38</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">20</value>
+            <value column="40">18</value>
+        </row>
+        <row>
+            <value column="0">20</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Temptation</value>
+            <value column="5">4</value>
+            <value column="6">4</value>
+            <value column="7">1</value>
+            <value column="8">11</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">12</value>
+            <value column="12">13</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">1</value>
+            <value column="16">13</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21">The Temptations of Christ, 12th-century mosaic at St Mark's Basilica, Venice</value>
+            <value column="22">https://en.wikipedia.org/wiki/Temptation_of_Christ#/media/File:Temptations_of_Christ_(San_Marco).jpg</value>
+            <value column="23">../images/1920px-Temptations_of_Christ_(San_Marco)[1].jpg</value>
+            <value column="24">184</value>
+            <value column="25">30</value>
+            <value column="26">203</value>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38">417</value>
+            <value column="39">21</value>
+            <value column="40">19</value>
+        </row>
+        <row>
+            <value column="0">21</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Call of the First Disciples</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">1</value>
+            <value column="18">1</value>
+            <value column="19">35</value>
+            <value column="20">51</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">22</value>
+            <value column="40">20</value>
+        </row>
+        <row>
+            <value column="0">22</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Marriage at Cana</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">2</value>
+            <value column="18">2</value>
+            <value column="19">1</value>
+            <value column="20">11</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">23</value>
+            <value column="40">21</value>
+        </row>
+        <row>
+            <value column="0">23</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Sojourn at Capernaum</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">2</value>
+            <value column="18">2</value>
+            <value column="19">12</value>
+            <value column="20">12</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">24</value>
+            <value column="40">22</value>
+        </row>
+        <row>
+            <value column="0">24</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The First Journey to Jerusalem</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">2</value>
+            <value column="18">2</value>
+            <value column="19">13</value>
+            <value column="20">13</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">25</value>
+            <value column="40">23</value>
+        </row>
+        <row>
+            <value column="0">25</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Cleansing of the Temple</value>
+            <value column="5">21</value>
+            <value column="6">21</value>
+            <value column="7">12</value>
+            <value column="8">13</value>
+            <value column="9">11</value>
+            <value column="10">11</value>
+            <value column="11">15</value>
+            <value column="12">17</value>
+            <value column="13">19</value>
+            <value column="14">19</value>
+            <value column="15">45</value>
+            <value column="16">46</value>
+            <value column="17">2</value>
+            <value column="18">2</value>
+            <value column="19">14</value>
+            <value column="20">22</value>
+            <value column="21">Casting Out the Money Changers, Fresco, Padua, Scrovegni Chapel, Giotto di Bondone, ca. 1305</value>
+            <value column="22">https://en.wikipedia.org/wiki/Cleansing_of_the_Temple#/media/File:Giotto_-_Scrovegni_-_-27-_-_Expulsion_of_the_Money-changers_from_the_Temple.jpg</value>
+            <value column="23">..images/Giotto_-_Scrovegni_-_-27-_-_Expulsion_of_the_Money-changers_from_the_Temple[1].jpg</value>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">26</value>
+            <value column="40">24</value>
+        </row>
+        <row>
+            <value column="0">26</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">Jesus' Ministry in Jerusalem</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">2</value>
+            <value column="18">2</value>
+            <value column="19">23</value>
+            <value column="20">25</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">27</value>
+            <value column="40">25</value>
+        </row>
+        <row>
+            <value column="0">27</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Discourse with Nicodemus</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">3</value>
+            <value column="18">3</value>
+            <value column="19">1</value>
+            <value column="20">21</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">28</value>
+            <value column="40">26</value>
+        </row>
+        <row>
+            <value column="0">28</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">Jesus' Ministry in Judea</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">3</value>
+            <value column="18">3</value>
+            <value column="19">22</value>
+            <value column="20">22</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">29</value>
+            <value column="40">27</value>
+        </row>
+        <row>
+            <value column="0">29</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">John's Testimony to Christ</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">3</value>
+            <value column="18">3</value>
+            <value column="19">23</value>
+            <value column="20">36</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">30</value>
+            <value column="40">28</value>
+        </row>
+        <row>
+            <value column="0">30</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Journey into Galilee</value>
+            <value column="5">4</value>
+            <value column="6">4</value>
+            <value column="7">12</value>
+            <value column="8">12</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">14</value>
+            <value column="12">14</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">14</value>
+            <value column="16">14</value>
+            <value column="17">4</value>
+            <value column="18">4</value>
+            <value column="19">1</value>
+            <value column="20">3</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">31</value>
+            <value column="40">29</value>
+        </row>
+        <row>
+            <value column="0">31</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Discourse witht he Woman of Samaria</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17">4</value>
+            <value column="18">4</value>
+            <value column="19">4</value>
+            <value column="20">42</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">32</value>
+            <value column="40">30</value>
+        </row>
+        <row>
+            <value column="0">32</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">Ministry in Galilee</value>
+            <value column="5">4</value>
+            <value column="6">4</value>
+            <value column="7">13</value>
+            <value column="8">17</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">14</value>
+            <value column="12">15</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">14</value>
+            <value column="16">15</value>
+            <value column="17">4</value>
+            <value column="18">4</value>
+            <value column="19">43</value>
+            <value column="20">46</value>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">33</value>
+            <value column="40">31</value>
+        </row>
+        <row>
+            <value column="0">33</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">Jesus' preaching at Nazareth</value>
+            <value column="5">13</value>
+            <value column="6">13</value>
+            <value column="7">53</value>
+            <value column="8">58</value>
+            <value column="9">6</value>
+            <value column="10">6</value>
+            <value column="11">1</value>
+            <value column="12">6</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">16</value>
+            <value column="16">30</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">34</value>
+            <value column="40">32</value>
+        </row>
+        <row>
+            <value column="0">34</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Call of the Disciples</value>
+            <value column="5">4</value>
+            <value column="6">4</value>
+            <value column="7">18</value>
+            <value column="8">22</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">16</value>
+            <value column="12">20</value>
+            <value column="13" null="true"/>
+            <value column="14" null="true"/>
+            <value column="15" null="true"/>
+            <value column="16" null="true"/>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">35</value>
+            <value column="40">33</value>
+        </row>
+        <row>
+            <value column="0">35</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">Teaching in the Synagogue at Capernaum</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">21</value>
+            <value column="12">22</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">31</value>
+            <value column="16">32</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">36</value>
+            <value column="40">34</value>
+        </row>
+        <row>
+            <value column="0">36</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Healing of the Demoniac in the Synagogue</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">23</value>
+            <value column="12">28</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">33</value>
+            <value column="16">37</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">37</value>
+            <value column="40">35</value>
+        </row>
+        <row>
+            <value column="0">37</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Healing of Peter's Mother-in-law</value>
+            <value column="5">8</value>
+            <value column="6">8</value>
+            <value column="7">14</value>
+            <value column="8">15</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">29</value>
+            <value column="12">31</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">38</value>
+            <value column="16">39</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">38</value>
+            <value column="40">36</value>
+        </row>
+        <row>
+            <value column="0">38</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Sick Healed at Evening</value>
+            <value column="5">8</value>
+            <value column="6">8</value>
+            <value column="7">16</value>
+            <value column="8">17</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">32</value>
+            <value column="12">34</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">40</value>
+            <value column="16">41</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">39</value>
+            <value column="40">37</value>
+        </row>
+        <row>
+            <value column="0">39</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">Jesus Departs from Capernaum</value>
+            <value column="5">1</value>
+            <value column="6">1</value>
+            <value column="7">35</value>
+            <value column="8">38</value>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">42</value>
+            <value column="16">43</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">40</value>
+            <value column="40">38</value>
+        </row>
+        <row>
+            <value column="0">40</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">First Preaching Tour in Galilee</value>
+            <value column="5">4</value>
+            <value column="6">4</value>
+            <value column="7">23</value>
+            <value column="8">23</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">39</value>
+            <value column="12">39</value>
+            <value column="13">4</value>
+            <value column="14">4</value>
+            <value column="15">44</value>
+            <value column="16">44</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">41</value>
+            <value column="40">39</value>
+        </row>
+        <row>
+            <value column="0">41</value>
+            <value column="1" null="true"/>
+            <value column="2" null="true"/>
+            <value column="3" null="true"/>
+            <value column="4">The Miraculous Draught of Fish</value>
+            <value column="5" null="true"/>
+            <value column="6" null="true"/>
+            <value column="7" null="true"/>
+            <value column="8" null="true"/>
+            <value column="9" null="true"/>
+            <value column="10" null="true"/>
+            <value column="11" null="true"/>
+            <value column="12" null="true"/>
+            <value column="13">5</value>
+            <value column="14">5</value>
+            <value column="15">1</value>
+            <value column="16">11</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">42</value>
+            <value column="40">40</value>
+        </row>
+        <row>
+            <value column="0">42</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Cleansing of the Leper</value>
+            <value column="5">8</value>
+            <value column="6">8</value>
+            <value column="7">1</value>
+            <value column="8">4</value>
+            <value column="9">1</value>
+            <value column="10">1</value>
+            <value column="11">40</value>
+            <value column="12">45</value>
+            <value column="13">5</value>
+            <value column="14">5</value>
+            <value column="15">12</value>
+            <value column="16">16</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">43</value>
+            <value column="40">41</value>
+        </row>
+        <row>
+            <value column="0">43</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3">x</value>
+            <value column="4">The Healing of the Paralytic</value>
+            <value column="5">9</value>
+            <value column="6">9</value>
+            <value column="7">1</value>
+            <value column="8">8</value>
+            <value column="9">2</value>
+            <value column="10">2</value>
+            <value column="11">1</value>
+            <value column="12">12</value>
+            <value column="13">5</value>
+            <value column="14">5</value>
+            <value column="15">17</value>
+            <value column="16">26</value>
+            <value column="17">5</value>
+            <value column="18">5</value>
+            <value column="19">1</value>
+            <value column="20">9</value>
+            <value column="21">&quot;The Paralytic Let Through the Roof,&quot; Church of Sant'Apollinare Nuovo, Ravenna, ca. 6th Century</value>
+            <value column="22">http://pravoslavie.ru/101764.html</value>
+            <value column="23">../images/260151.jpg</value>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">44</value>
+            <value column="40">42</value>
+        </row>
+        <row>
+            <value column="0">44</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Call of Levi (Matthew)</value>
+            <value column="5">9</value>
+            <value column="6">9</value>
+            <value column="7">9</value>
+            <value column="8">13</value>
+            <value column="9">2</value>
+            <value column="10">2</value>
+            <value column="11">13</value>
+            <value column="12">17</value>
+            <value column="13">5</value>
+            <value column="14">5</value>
+            <value column="15">27</value>
+            <value column="16">32</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">45</value>
+            <value column="40">43</value>
+        </row>
+        <row>
+            <value column="0">188</value>
+            <value column="1">x</value>
+            <value column="2">x</value>
+            <value column="3" null="true"/>
+            <value column="4">The Beelzebub Controversy</value>
+            <value column="5">12</value>
+            <value column="6">12</value>
+            <value column="7">22</value>
+            <value column="8">30</value>
+            <value column="9">3</value>
+            <value column="10">3</value>
+            <value column="11">22</value>
+            <value column="12">27</value>
+            <value column="13">11</value>
+            <value column="14">11</value>
+            <value column="15">14</value>
+            <value column="16">23</value>
+            <value column="17" null="true"/>
+            <value column="18" null="true"/>
+            <value column="19" null="true"/>
+            <value column="20" null="true"/>
+            <value column="21" null="true"/>
+            <value column="22" null="true"/>
+            <value column="23" null="true"/>
+            <value column="24" null="true"/>
+            <value column="25" null="true"/>
+            <value column="26" null="true"/>
+            <value column="27" null="true"/>
+            <value column="28" null="true"/>
+            <value column="29" null="true"/>
+            <value column="30" null="true"/>
+            <value column="31" null="true"/>
+            <value column="32" null="true"/>
+            <value column="33" null="true"/>
+            <value column="34" null="true"/>
+            <value column="35" null="true"/>
+            <value column="36" null="true"/>
+            <value column="37" null="true"/>
+            <value column="38" null="true"/>
+            <value column="39">189</value>
+            <value column="40">187</value>
+        </row>
+    </rows>
+</table>

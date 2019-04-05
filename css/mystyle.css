@@ -1,0 +1,140 @@
+.title {
+	color: white;
+	text-align: center !important;
+}
+	
+.subtitle {
+	color: white;
+	text-align: center !important;
+	font-size: 2vw;
+}
+
+.title-bkg {
+	border-radius: 50px;
+	background-color: #00000020;
+	margin-top: 50px;
+}
+
+.title-bkg2 {
+	background-color: #ab3226;
+}
+
+.jumbotron {
+	background: url("../images/lindisfarne-gospels.jpg"); 
+}
+
+.top-border {
+	background-color: #ab3226;
+	height: 20px;
+	margin-top: -33px;
+}
+
+.emphasis {
+	color: black;
+	text-align: center !important;
+	font-size: 2.5vw;
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.anchor {
+	color: white;
+}
+
+.page-footer {
+	padding-left: 10px;
+}
+
+.div-center {
+	display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column; /* column | row */
+}
+
+a {
+	color: black;
+}
+
+.contrastbkg {
+	background-color: lightgray;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+
+.guide {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.guide-title {
+	font-size: 45px;
+	text-align: left;
+	color: white;
+	background-color: #ab3226;
+	padding-top: 33px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+ul {
+	list-style-type: bullet;
+	list-style-position: inside;
+}
+
+li {
+	font-size: 20px;
+}
+
+.subNav {
+	font-size: 20px;
+	color: black;
+}
+
+
+
+/* Change Font-Size for Device Screens */
+/* Extra small devices (phones, up to 699px) */
+@media screen and (max-width: 699px) {
+	.title {
+		font-size: 35px;
+		margin-top: 50px;
+	}
+	.title-bkg2 {
+		padding-top: 25px;
+		padding-bottom: 5px;
+	}
+}
+/* Small devices (tablets, 700px and up) */
+@media (min-width: 700px) and (max-width: 991px) {
+	.title {
+		font-size: 60px;
+	}
+	.narrow {
+		width: 200px;
+	}
+	.title-bkg2 {
+		padding-top: 80px;
+		padding-bottom: 5px;
+	}
+}
+/* tablets/desktops and up */
+@media (min-width: 992px) {
+	.title {
+		font-size: 4vw;
+	}
+	.narrow {
+		width: 200px;
+	}
+	.title-bkg2 {
+		padding-top: 100px;
+		padding-bottom: 20px;
+	}
+}
+

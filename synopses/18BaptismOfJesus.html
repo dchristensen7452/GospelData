@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>18 - The Baptism of Jesus</title>
+	<meta name="author" content="Daniel Christensen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Morphological Coding Scheme-->
+	<meta name="MorphCodes" src="../resources/BibleWorks10-GreekMorphCodes.pdf" href="https://www.bibleworks.com/bw9help/bwh43a_Codes_BLM.htm">
+	<!--Local Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+	<link id="pagestyle" rel="stylesheet" type="text/css" href="../css/plaintext.css">
+	<!--External Stylesheets-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+
+<!--Navbar-->
+<div class="container">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+		<img src="../images/book-of-kells-gospels.jpg" class="align-top" style="width: 30px; width: 30px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+		<span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="../index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../synopses.html">Synopses</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../contact.html">Contact</a>
+			</li>
+		</ul>
+		<!--Search Bar
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>-->
+    </div>
+  </nav>
+</div>
+
+<!--Title Banner-->
+<div class="jumbotron jumbotron-fluid text-center">
+	<div class="container title-bkg">
+		<p class="title">The Baptism of Jesus</p>
+		<p class="subtitle d-none d-md-block">Synopsis #18</p>
+	</div>
+</div>
+<div class="container-fluid top-border"></div>
+
+
+
+<!--Title Image and Navigation-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col div-center">
+			<a href="17ImprisonmentJohn.html" class="btn btn-lg btn-outline-dark narrow" type="button"><span class="d-none d-md-block">Previous</span><i class="fas fa-arrow-circle-left"></i></a>
+		</div>
+		<div class="col">
+			<div class="container-fluid d-none d-md-block">
+				<a href="https://www.nationalgallery.org.uk/research/the-baptism-of-christ" target="_blank">
+					<img class="img-fluid rounded mx-auto d-md-block" alt="Responsive image" src="../images/8044055612_bbd20830ba_b.jpg">
+				</a>
+				<p class="text-center"><i>The Baptism of Christ</i>, Pietro Perugino, ca. 1497. Musée des Beaux-Arts de Rouen<p>
+			</div>
+		</div>
+		<div class="col div-center">
+			<a href="20Temptation.html" class="btn btn-lg btn-outline-dark narrow" type="button"><span class="d-none d-md-block">Next</span><i class="fas fa-arrow-circle-right"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--Change Style Buttons-->
+<div class="container-fluid" style="background-color: #ab3226">
+	<div class="row">
+		<div class="col">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg" style="background-color: #ab3226; color: white">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#paletteNav">
+					<i class="fas fa-bars" style="color: white"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="paletteNav">
+					<ul class="navbar-nav">
+						<li class="nav-item d-none d-md-block">
+							<a class="nav-link btn">Color Palettes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn" onClick="changestyle('../css/plaintext.css')">
+							<i class="fas fa-font"></i> Plain Text</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="palettesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-palette"></i> Styles</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item btn" onClick="changestyle('../css/synopsiscolors.css')"><i class="fas fa-brush"></i> Primary</a>
+									<a class="dropdown-item btn" onClick="changestyle('../css/farmerColors.css')"><i class="fas fa-brush"></i> Farmer</a>
+								</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!--Choose Colors-->
+		</div>
+		<div class="col">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg" style="background-color: #ab3226; color: white">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colorsNav">
+					<i class="fas fa-bars" style="color: white"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="colorsNav">
+					<ul class="navbar-nav" style="color: white">
+						<li class="nav-item d-none d-md-block">
+							<a class="nav-link btn">Choose Colors</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="M fas fa-square"></i> Matt</a>
+								<div class="dropdown-menu">
+									<a name="red"   class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:red"></i> Red</a>
+									<a name="orange"class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:orange"></i> Orange</a>
+									<a name="yellow"class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:yellow"></i> Yellow</a>
+									<a name="green" class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:green"></i> Green</a>
+									<a name="blue"  class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:blue"></i> Blue</a>
+									<a name="purple"class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:purple"></i> Purple</a>
+									<a name="black" class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:black"></i> Black</a>
+									<a name="brown" class="dropdown-item btn Mcolorsel"><i class="fas fa-square" style="color:brown"></i> Brown</a>
+									<a name="none"  class="dropdown-item btn Mcolorsel-none"><i class="far fa-square"></i> None</a>
+								</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="R fas fa-square"></i> Mark</a>
+								<div class="dropdown-menu">
+									<a name="red"   class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:red"></i> Red</a>
+									<a name="orange"class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:orange"></i> Orange</a>
+									<a name="yellow"class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:yellow"></i> Yellow</a>
+									<a name="green" class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:green"></i> Green</a>
+									<a name="blue"  class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:blue"></i> Blue</a>
+									<a name="purple"class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:purple"></i> Purple</a>
+									<a name="black" class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:black"></i> Black</a>
+									<a name="brown" class="dropdown-item btn Rcolorsel"><i class="fas fa-square" style="color:brown"></i> Brown</a>
+									<a name="none"  class="dropdown-item btn Rcolorsel-none"><i class="far fa-square"></i> None</a>
+								</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="L fas fa-square"></i> Luke</a>
+								<div class="dropdown-menu">
+									<a name="red"   class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:red"></i> Red</a>
+									<a name="orange"class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:orange"></i> Orange</a>
+									<a name="yellow"class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:yellow"></i> Yellow</a>
+									<a name="green" class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:green"></i> Green</a>
+									<a name="blue"  class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:blue"></i> Blue</a>
+									<a name="purple"class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:purple"></i> Purple</a>
+									<a name="black" class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:black"></i> Black</a>
+									<a name="brown" class="dropdown-item btn Lcolorsel"><i class="fas fa-square" style="color:brown"></i> Brown</a>
+									<a name="none"  class="dropdown-item btn Lcolorsel-none"><i class="far fa-square"></i> None</a>
+								</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="A fas fa-square"></i> Mt/Mk</a>
+								<div class="dropdown-menu">
+									<a name="red"   class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:red"></i> Red</a>
+									<a name="orange"class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:orange"></i> Orange</a>
+									<a name="yellow"class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:yellow"></i> Yellow</a>
+									<a name="green" class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:green"></i> Green</a>
+									<a name="blue"  class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:blue"></i> Blue</a>
+									<a name="purple"class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:purple"></i> Purple</a>
+									<a name="black" class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:black"></i> Black</a>
+									<a name="brown" class="dropdown-item btn Acolorsel"><i class="fas fa-square" style="color:brown"></i> Brown</a>
+									<a name="none"  class="dropdown-item btn Acolorsel-none"><i class="far fa-square"></i> None</a>
+								</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="B fas fa-square"></i> Mk/Lk</a>
+								<div class="dropdown-menu">
+									<a name="red"   class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:red"></i> Red</a>
+									<a name="orange"class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:orange"></i> Orange</a>
+									<a name="yellow"class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:yellow"></i> Yellow</a>
+									<a name="green" class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:green"></i> Green</a>
+									<a name="blue"  class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:blue"></i> Blue</a>
+									<a name="purple"class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:purple"></i> Purple</a>
+									<a name="black" class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:black"></i> Black</a>
+									<a name="brown" class="dropdown-item btn Bcolorsel"><i class="fas fa-square" style="color:brown"></i> Brown</a>
+									<a name="none"  class="dropdown-item btn Bcolorsel-none"><i class="far fa-square"></i> None</a>
+								</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="C fas fa-square"></i> Mt/Lk</a>
+								<div class="dropdown-menu">
+									<a name="red"   class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:red"></i> Red</a>
+									<a name="orange"class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:orange"></i> Orange</a>
+									<a name="yellow"class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:yellow"></i> Yellow</a>
+									<a name="green" class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:green"></i> Green</a>
+									<a name="blue"  class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:blue"></i> Blue</a>
+									<a name="purple"class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:purple"></i> Purple</a>
+									<a name="black" class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:black"></i> Black</a>
+									<a name="brown" class="dropdown-item btn Ccolorsel"><i class="fas fa-square" style="color:brown"></i> Brown</a>
+									<a name="none"  class="dropdown-item btn Ccolorsel-none"><i class="far fa-square"></i> None</a>
+								</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="T fas fa-square"></i> Trip</a>
+								<div class="dropdown-menu">
+									<a name="red"   class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:red"></i> Red</a>
+									<a name="orange"class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:orange"></i> Orange</a>
+									<a name="yellow"class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:yellow"></i> Yellow</a>
+									<a name="green" class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:green"></i> Green</a>
+									<a name="blue"  class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:blue"></i> Blue</a>
+									<a name="purple"class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:purple"></i> Purple</a>
+									<a name="black" class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:black"></i> Black</a>
+									<a name="brown" class="dropdown-item btn Tcolorsel"><i class="fas fa-square" style="color:brown"></i> Brown</a>
+									<a name="none"  class="dropdown-item btn Tcolorsel-none"><i class="far fa-square"></i> None</a>
+								</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		</div>
+	</div>
+</div>
+
+<!--Synoptics-->			
+<div class="top row px-3">
+
+	<!--Matt-->
+	<div name="Matt 3:13-17" class="contrastbkg m-md-4 col-md">
+	<div class="container-fluid text-center"><h3>Matthew 3:13-17</h3></div><sup> 13</sup>
+		<span id="1130" bk="Matt" ch="3" vs="13" class="M M1" lemma="τότε" pos="b" title="τότε - b">Τότε</span>
+		<span id="1131" bk="Matt" ch="3" vs="13" class="M T1" lemma="παραγίνομαι" pos="vipm3s" title="παραγίνομαι - vipm3s">παραγίνεται</span>
+		<span id="1132" bk="Matt" ch="3" vs="13" class="M M1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="1133" bk="Matt" ch="3" vs="13" class="A A1" lemma="Ἰησοῦς" pos="nnmsp" title="Ἰησοῦς - nnmsp">Ἰησοῦς</span>
+		<span id="1134" bk="Matt" ch="3" vs="13" class="A A1" lemma="ἀπό" pos="pg" title="ἀπό - pg">ἀπὸ</span>
+		<span id="1135" bk="Matt" ch="3" vs="13" class="A A1" lemma="ὁ" pos="dgfs" title="ὁ - dgfs">τῆς</span>
+		<span id="1136" bk="Matt" ch="3" vs="13" class="A A1" lemma="Γαλιλαία" pos="ngfsp" title="Γαλιλαία - ngfsp">Γαλιλαίας</span>
+		<span id="1137" bk="Matt" ch="3" vs="13" class="M M1" lemma="ἐπί" pos="pa" title="ἐπί - pa">ἐπὶ</span>
+		<span id="1138" bk="Matt" ch="3" vs="13" class="A A1" lemma="ὁ" pos="dams" title="ὁ - dams">τὸν</span>
+		<span id="1139" bk="Matt" ch="3" vs="13" class="A A1" lemma="Ἰορδάνης" pos="namsp" title="Ἰορδάνης - namsp">Ἰορδάνην</span>
+		<span id="1140" bk="Matt" ch="3" vs="13" class="M M1" lemma="πρός" pos="pa" title="πρός - pa">πρὸς</span>
+		<span id="1141" bk="Matt" ch="3" vs="13" class="M M1" lemma="ὁ" pos="dams" title="ὁ - dams">τὸν</span>
+		<span id="1142" bk="Matt" ch="3" vs="13" class="M A1" lemma="Ἰωάννης" pos="namsp" title="Ἰωάννης - namsp">Ἰωάννην</span>
+		<span id="1143" bk="Matt" ch="3" vs="13" class="M C1" lemma="ὁ" pos="dgns" title="ὁ - dgns">τοῦ</span>
+		<span id="1144" bk="Matt" ch="3" vs="13" class="C C1" lemma="βαπτίζω" pos="vnap" title="βαπτίζω - vnap">βαπτισθῆναι</span>
+		<span id="1145" bk="Matt" ch="3" vs="13" class="M A1" lemma="ὑπό" pos="pg" title="ὑπό - pg">ὑπ</span>
+		<span id="1146" bk="Matt" ch="3" vs="13" class="M M1" lemma="αὐτός" pos="rpgms" title="αὐτός - rpgms">αὐτοῦ</span><sup> 14</sup>
+		<span id="1147" bk="Matt" ch="3" vs="14" class="M M1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="1148" bk="Matt" ch="3" vs="14" class="M M1" lemma="δέ" pos="cc" title="δέ - cc">δὲ</span>
+		<span id="1149" bk="Matt" ch="3" vs="14" class="M M1" lemma="Ἰωάννης" pos="nnmsp" title="Ἰωάννης - nnmsp">Ἰωάννης</span>
+		<span id="1150" bk="Matt" ch="3" vs="14" class="M M1" lemma="διακωλύω" pos="viia3s" title="διακωλύω - viia3s">διεκώλυεν</span>
+		<span id="1151" bk="Matt" ch="3" vs="14" class="M M1" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτὸν</span>
+		<span id="1152" bk="Matt" ch="3" vs="14" class="M M1" lemma="λέγω" pos="vppanms" title="λέγω - vppanms">λέγων</span>
+		<span id="1153" bk="Matt" ch="3" vs="14" class="M M1" lemma="ἐγώ" pos="rpn-s" title="ἐγώ - rpn-s">ἐγὼ</span>
+		<span id="1154" bk="Matt" ch="3" vs="14" class="M M1" lemma="χρεία" pos="nafsc" title="χρεία - nafsc">χρείαν</span>
+		<span id="1155" bk="Matt" ch="3" vs="14" class="M M1" lemma="ἔχω" pos="vipa1s" title="ἔχω - vipa1s">ἔχω</span>
+		<span id="1156" bk="Matt" ch="3" vs="14" class="M M1" lemma="ὑπό" pos="pg" title="ὑπό - pg">ὑπὸ</span>
+		<span id="1157" bk="Matt" ch="3" vs="14" class="M M1" lemma="σύ" pos="rpg-s" title="σύ - rpg-s">σοῦ</span>
+		<span id="1158" bk="Matt" ch="3" vs="14" class="M M1" lemma="βαπτίζω" pos="vnap" title="βαπτίζω - vnap">βαπτισθῆναι</span>
+		<span id="1159" bk="Matt" ch="3" vs="14" class="M M1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="1160" bk="Matt" ch="3" vs="14" class="M M1" lemma="σύ" pos="rpn-s" title="σύ - rpn-s">σὺ</span>
+		<span id="1161" bk="Matt" ch="3" vs="14" class="M M1" lemma="ἔρχομαι" pos="vipm2s" title="ἔρχομαι - vipm2s">ἔρχῃ</span>
+		<span id="1162" bk="Matt" ch="3" vs="14" class="M M1" lemma="πρός" pos="pa" title="πρός - pa">πρός</span>
+		<span id="1163" bk="Matt" ch="3" vs="14" class="M M1" lemma="ἐγώ" pos="rpa-s" title="ἐγώ - rpa-s">με</span><sup> 15</sup>
+		<span id="1164" bk="Matt" ch="3" vs="15" class="M M1" lemma="ἀποκρίνομαι" pos="vpapnms" title="ἀποκρίνομαι - vpapnms">ἀποκριθεὶς</span>
+		<span id="1165" bk="Matt" ch="3" vs="15" class="M M1" lemma="δέ" pos="cc" title="δέ - cc">δὲ</span>
+		<span id="1166" bk="Matt" ch="3" vs="15" class="M M1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="1167" bk="Matt" ch="3" vs="15" class="M M1" lemma="Ἰησοῦς" pos="nnmsp" title="Ἰησοῦς - nnmsp">Ἰησοῦς</span>
+		<span id="1168" bk="Matt" ch="3" vs="15" class="M M1" lemma="λέγω" pos="viaa3s" title="λέγω - viaa3s">εἶπεν</span>
+		<span id="1169" bk="Matt" ch="3" vs="15" class="M M1" lemma="πρός" pos="pa" title="πρός - pa">πρὸς</span>
+		<span id="1170" bk="Matt" ch="3" vs="15" class="M M1" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span>
+		<span id="1171" bk="Matt" ch="3" vs="15" class="M M1" lemma="ἀφίημι" pos="vdaa2s" title="ἀφίημι - vdaa2s">ἄφες</span>
+		<span id="1172" bk="Matt" ch="3" vs="15" class="M M1" lemma="ἄρτι" pos="b" title="ἄρτι - b">ἄρτι</span>
+		<span id="1173" bk="Matt" ch="3" vs="15" class="M M1" lemma="οὕτως" pos="b" title="οὕτως - b">οὕτως</span>
+		<span id="1174" bk="Matt" ch="3" vs="15" class="M M1" lemma="γάρ" pos="cc" title="γάρ - cc">γὰρ</span>
+		<span id="1175" bk="Matt" ch="3" vs="15" class="M M1" lemma="πρέπω" pos="vppanns" title="πρέπω - vppanns">πρέπον</span>
+		<span id="1176" bk="Matt" ch="3" vs="15" class="M M1" lemma="εἰμί" pos="vipa3s" title="εἰμί - vipa3s">ἐστὶν</span>
+		<span id="1177" bk="Matt" ch="3" vs="15" class="M M1" lemma="ἐγώ" pos="rpd-p" title="ἐγώ - rpd-p">ἡμῖν</span>
+		<span id="1178" bk="Matt" ch="3" vs="15" class="M M1" lemma="πληρόω" pos="vnaa" title="πληρόω - vnaa">πληρῶσαι</span>
+		<span id="1179" bk="Matt" ch="3" vs="15" class="M M1" lemma="πᾶς" pos="aiafsn" title="πᾶς - aiafsn">πᾶσαν</span>
+		<span id="1180" bk="Matt" ch="3" vs="15" class="M M1" lemma="δικαιοσύνη" pos="nafsc" title="δικαιοσύνη - nafsc">δικαιοσύνην</span>
+		<span id="1181" bk="Matt" ch="3" vs="15" class="M M1" lemma="τότε" pos="b" title="τότε - b">τότε</span>
+		<span id="1182" bk="Matt" ch="3" vs="15" class="M M1" lemma="ἀφίημι" pos="vipa3s" title="ἀφίημι - vipa3s">ἀφίησιν</span>
+		<span id="1183" bk="Matt" ch="3" vs="15" class="M M1" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span><sup> 16</sup>
+		<span id="1184" bk="Matt" ch="3" vs="16" class="M T1" lemma="βαπτίζω" pos="vpapnms" title="βαπτίζω - vpapnms">βαπτισθεὶς</span>
+		<span id="1185" bk="Matt" ch="3" vs="16" class="M M1" lemma="δέ" pos="cc" title="δέ - cc">δὲ</span>
+		<span id="1186" bk="Matt" ch="3" vs="16" class="M M1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="1187" bk="Matt" ch="3" vs="16" class="M C1" lemma="Ἰησοῦς" pos="nnmsp" title="Ἰησοῦς - nnmsp">Ἰησοῦς</span>
+		<span id="1188" bk="Matt" ch="3" vs="16" class="A A1" lemma="εὐθύς" pos="b" title="εὐθύς - b">εὐθὺς</span>
+		<span id="1189" bk="Matt" ch="3" vs="16" class="M A1" lemma="ἀναβαίνω" pos="viaa3s" title="ἀναβαίνω - viaa3s">ἀνέβη</span>
+		<span id="1190" bk="Matt" ch="3" vs="16" class="M M1" lemma="ἀπό" pos="pg" title="ἀπό - pg">ἀπὸ</span>
+		<span id="1191" bk="Matt" ch="3" vs="16" class="A A1" lemma="ὁ" pos="dgns" title="ὁ - dgns">τοῦ</span>
+		<span id="1192" bk="Matt" ch="3" vs="16" class="A A1" lemma="ὕδωρ" pos="ngnsc" title="ὕδωρ - ngnsc">ὕδατος</span>
+		<span id="1193" bk="Matt" ch="3" vs="16" class="M M1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="1194" bk="Matt" ch="3" vs="16" class="M M1" lemma="ἰδού" pos="i" title="ἰδού - i">ἰδοὺ</span>
+		<span id="1195" bk="Matt" ch="3" vs="16" class="M C1" lemma="ἀνοίγω" pos="viap3p" title="ἀνοίγω - viap3p">ἠνεῴχθησαν</span>
+		<span id="1196" bk="Matt" ch="3" vs="16" class="M M1" lemma="αὐτός" pos="rpdms" title="αὐτός - rpdms">αὐτῷ</span>
+		<span id="1197" bk="Matt" ch="3" vs="16" class="M T1" lemma="ὁ" pos="dnmp" title="ὁ - dnmp">οἱ</span>
+		<span id="1198" bk="Matt" ch="3" vs="16" class="M T1" lemma="οὐρανός" pos="nnmpc" title="οὐρανός - nnmpc">οὐρανοί</span>
+		<span id="1199" bk="Matt" ch="3" vs="16" class="T T1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="1200" bk="Matt" ch="3" vs="16" class="A T1" lemma="ὁράω" pos="viaa3s" title="ὁράω - viaa3s">εἶδεν</span>
+		<span id="1201" bk="Matt" ch="3" vs="16" class="T T1" lemma="ὁ" pos="dans" title="ὁ - dans">τὸ</span>
+		<span id="1202" bk="Matt" ch="3" vs="16" class="T T1" lemma="πνεῦμα" pos="nansc" title="πνεῦμα - nansc">πνεῦμα</span>
+		<span id="1203" bk="Matt" ch="3" vs="16" class="M M1" lemma="ὁ" pos="dgms" title="ὁ - dgms">τοῦ</span>
+		<span id="1204" bk="Matt" ch="3" vs="16" class="M M1" lemma="θεός" pos="ngmsc" title="θεός - ngmsc">θεοῦ</span>
+		<span id="1205" bk="Matt" ch="3" vs="16" class="A T1" lemma="καταβαίνω" pos="vppaans" title="καταβαίνω - vppaans">καταβαῖνον</span>
+		<span id="1206" bk="Matt" ch="3" vs="16" class="M T1" lemma="ὡσεί" pos="b" title="ὡσεί - b">ὡσεὶ</span>
+		<span id="1207" bk="Matt" ch="3" vs="16" class="T T1" lemma="περιστερά" pos="nafsc" title="περιστερά - nafsc">περιστερὰν</span>
+		<span id="1208" bk="Matt" ch="3" vs="16" class="M M1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="1209" bk="Matt" ch="3" vs="16" class="M M1" lemma="ἔρχομαι" pos="vppmans" title="ἔρχομαι - vppmans">ἐρχόμενον</span>
+		<span id="1210" bk="Matt" ch="3" vs="16" class="C C1" lemma="ἐπί" pos="pa" title="ἐπί - pa">ἐπ</span>
+		<span id="1211" bk="Matt" ch="3" vs="16" class="T T1" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span><sup> 17</sup>
+		<span id="1212" bk="Matt" ch="3" vs="17" class="T T1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="1213" bk="Matt" ch="3" vs="17" class="M M1" lemma="ἰδού" pos="i" title="ἰδού - i">ἰδοὺ</span>
+		<span id="1214" bk="Matt" ch="3" vs="17" class="A T1" lemma="φωνή" pos="nnfsc" title="φωνή - nnfsc">φωνὴ</span>
+		<span id="1215" bk="Matt" ch="3" vs="17" class="A A1" lemma="ἐκ" pos="pg" title="ἐκ - pg">ἐκ</span>
+		<span id="1216" bk="Matt" ch="3" vs="17" class="A A1" lemma="ὁ" pos="dgmp" title="ὁ - dgmp">τῶν</span>
+		<span id="1217" bk="Matt" ch="3" vs="17" class="A T1" lemma="οὐρανός" pos="ngmpc" title="οὐρανός - ngmpc">οὐρανῶν</span>
+		<span id="1218" bk="Matt" ch="3" vs="17" class="M M1" lemma="λέγω" pos="vppanfs" title="λέγω - vppanfs">λέγουσα</span>
+		<span id="1219" bk="Matt" ch="3" vs="17" class="M M1" lemma="οὗτος" pos="rdnms" title="οὗτος - rdnms">οὗτός</span>
+		<span id="1220" bk="Matt" ch="3" vs="17" class="M M1" lemma="εἰμί" pos="vipa3s" title="εἰμί - vipa3s">ἐστιν</span>
+		<span id="1221" bk="Matt" ch="3" vs="17" class="T T1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="1222" bk="Matt" ch="3" vs="17" class="T T1" lemma="υἱός" pos="nnmsc" title="υἱός - nnmsc">υἱός</span>
+		<span id="1223" bk="Matt" ch="3" vs="17" class="T T1" lemma="ἐγώ" pos="rpg-s" title="ἐγώ - rpg-s">μου</span>
+		<span id="1224" bk="Matt" ch="3" vs="17" class="T T1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="1225" bk="Matt" ch="3" vs="17" class="T T1" lemma="ἀγαπητός" pos="annmsn" title="ἀγαπητός - annmsn">ἀγαπητός</span>
+		<span id="1226" bk="Matt" ch="3" vs="17" class="T T1" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+		<span id="1227" bk="Matt" ch="3" vs="17" class="M M1" lemma="ὅς" pos="rrdms" title="ὅς - rrdms">ᾧ</span>
+		<span id="1228" bk="Matt" ch="3" vs="17" class="T T1" lemma="εὐδοκέω" pos="viaa1s" title="εὐδοκέω - viaa1s">εὐδόκησα</span>
+	<br></br><br></br>
+	<p class="container-fluid text-right bottom pr-5"><b>Word Count: 99</b></p>
+	</div>
+	
+	<!--Mark-->
+	<div name="Mark 1:9-11" class="contrastbkg m-md-4 col-md text-column">
+	<div class="container-fluid text-center"><h3>Mark 1:9-11</h3></div><sup> 9</sup>
+		<span id="18480" bk="Mark" ch="1" vs="9" class="R R1" lemma="καί" pos="cc" title="καί - cc">Καὶ</span>
+		<span id="18481" bk="Mark" ch="1" vs="9" class="B T1" lemma="γίνομαι" pos="viam3s" title="γίνομαι - viam3s">ἐγένετο</span>
+		<span id="18482" bk="Mark" ch="1" vs="9" class="R B1" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+		<span id="18483" bk="Mark" ch="1" vs="9" class="R R1" lemma="ἐκεῖνος" pos="rddfp" title="ἐκεῖνος - rddfp">ἐκείναις</span>
+		<span id="18484" bk="Mark" ch="1" vs="9" class="R R1" lemma="ὁ" pos="ddfp" title="ὁ - ddfp">ταῖς</span>
+		<span id="18485" bk="Mark" ch="1" vs="9" class="R R1" lemma="ἡμέρα" pos="ndfpc" title="ἡμέρα - ndfpc">ἡμέραις</span>
+		<span id="18486" bk="Mark" ch="1" vs="9" class="R R1" lemma="ἔρχομαι" pos="viaa3s" title="ἔρχομαι - viaa3s">ἦλθεν</span>
+		<span id="18487" bk="Mark" ch="1" vs="9" class="A A1" lemma="Ἰησοῦς" pos="nnmsp" title="Ἰησοῦς - nnmsp">Ἰησοῦς</span>
+		<span id="18488" bk="Mark" ch="1" vs="9" class="A A1" lemma="ἀπό" pos="pg" title="ἀπό - pg">ἀπὸ</span>
+		<span id="18489" bk="Mark" ch="1" vs="9" class="R R1" lemma="Ναζαρά" pos="ngfsp" title="Ναζαρά - ngfsp">Ναζαρὲτ</span>
+		<span id="18490" bk="Mark" ch="1" vs="9" class="A A1" lemma="ὁ" pos="dgfs" title="ὁ - dgfs">τῆς</span>
+		<span id="18491" bk="Mark" ch="1" vs="9" class="A A1" lemma="Γαλιλαία" pos="ngfsp" title="Γαλιλαία - ngfsp">Γαλιλαίας</span>
+		<span id="18492" bk="Mark" ch="1" vs="9" class="B B1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="18493" bk="Mark" ch="1" vs="9" class="R T1" lemma="βαπτίζω" pos="viap3s" title="βαπτίζω - viap3s">ἐβαπτίσθη</span>
+		<span id="18494" bk="Mark" ch="1" vs="9" class="R R1" lemma="εἰς" pos="pa" title="εἰς - pa">εἰς</span>
+		<span id="18495" bk="Mark" ch="1" vs="9" class="A A1" lemma="ὁ" pos="dams" title="ὁ - dams">τὸν</span>
+		<span id="18496" bk="Mark" ch="1" vs="9" class="A A1" lemma="Ἰορδάνης" pos="namsp" title="Ἰορδάνης - namsp">Ἰορδάνην</span>
+		<span id="18497" bk="Mark" ch="1" vs="9" class="R A1" lemma="ὑπό" pos="pg" title="ὑπό - pg">ὑπὸ</span>
+		<span id="18498" bk="Mark" ch="1" vs="9" class="R A1" lemma="Ἰωάννης" pos="ngmsp" title="Ἰωάννης - ngmsp">Ἰωάννου</span><sup> 10</sup>
+		<span id="18499" bk="Mark" ch="1" vs="10" class="R R1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="18500" bk="Mark" ch="1" vs="10" class="A A1" lemma="εὐθύς" pos="b" title="εὐθύς - b">εὐθὺς</span>
+		<span id="18501" bk="Mark" ch="1" vs="10" class="R A1" lemma="ἀναβαίνω" pos="vppanms" title="ἀναβαίνω - vppanms">ἀναβαίνων</span>
+		<span id="18502" bk="Mark" ch="1" vs="10" class="R R1" lemma="ἐκ" pos="pg" title="ἐκ - pg">ἐκ</span>
+		<span id="18503" bk="Mark" ch="1" vs="10" class="A A1" lemma="ὁ" pos="dgns" title="ὁ - dgns">τοῦ</span>
+		<span id="18504" bk="Mark" ch="1" vs="10" class="A A1" lemma="ὕδωρ" pos="ngnsc" title="ὕδωρ - ngnsc">ὕδατος</span>
+		<span id="18505" bk="Mark" ch="1" vs="10" class="A T1" lemma="ὁράω" pos="viaa3s" title="ὁράω - viaa3s">εἶδεν</span>
+		<span id="18506" bk="Mark" ch="1" vs="10" class="R R1" lemma="σχίζω" pos="vpppamp" title="σχίζω - vpppamp">σχιζομένους</span>
+		<span id="18507" bk="Mark" ch="1" vs="10" class="R T1" lemma="ὁ" pos="damp" title="ὁ - damp">τοὺς</span>
+		<span id="18508" bk="Mark" ch="1" vs="10" class="R T1" lemma="οὐρανός" pos="nampc" title="οὐρανός - nampc">οὐρανοὺς</span>
+		<span id="18509" bk="Mark" ch="1" vs="10" class="T T1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="18510" bk="Mark" ch="1" vs="10" class="T T1" lemma="ὁ" pos="dans" title="ὁ - dans">τὸ</span>
+		<span id="18511" bk="Mark" ch="1" vs="10" class="T T1" lemma="πνεῦμα" pos="nansc" title="πνεῦμα - nansc">πνεῦμα</span>
+		<span id="18512" bk="Mark" ch="1" vs="10" class="B B1" lemma="ὡς" pos="cs" title="ὡς - cs">ὡς</span>
+		<span id="18513" bk="Mark" ch="1" vs="10" class="T T1" lemma="περιστερά" pos="nafsc" title="περιστερά - nafsc">περιστερὰν</span>
+		<span id="18514" bk="Mark" ch="1" vs="10" class="A T1" lemma="καταβαίνω" pos="vppaans" title="καταβαίνω - vppaans">καταβαῖνον</span>
+		<span id="18515" bk="Mark" ch="1" vs="10" class="R R1" lemma="εἰς" pos="pa" title="εἰς - pa">εἰς</span>
+		<span id="18516" bk="Mark" ch="1" vs="10" class="T T1" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span><sup> 11</sup>
+		<span id="18517" bk="Mark" ch="1" vs="11" class="T T1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="18518" bk="Mark" ch="1" vs="11" class="A T1" lemma="φωνή" pos="nnfsc" title="φωνή - nnfsc">φωνὴ</span>
+		<span id="18519" bk="Mark" ch="1" vs="11" class="R B1" lemma="γίνομαι" pos="viam3s" title="γίνομαι - viam3s">ἐγένετο</span>
+		<span id="18520" bk="Mark" ch="1" vs="11" class="A A1" lemma="ἐκ" pos="pg" title="ἐκ - pg">ἐκ</span>
+		<span id="18521" bk="Mark" ch="1" vs="11" class="A A1" lemma="ὁ" pos="dgmp" title="ὁ - dgmp">τῶν</span>
+		<span id="18522" bk="Mark" ch="1" vs="11" class="A T1" lemma="οὐρανός" pos="ngmpc" title="οὐρανός - ngmpc">οὐρανῶν</span>
+		<span id="18523" bk="Mark" ch="1" vs="11" class="B B1" lemma="σύ" pos="rpn-s" title="σύ - rpn-s">σὺ</span>
+		<span id="18524" bk="Mark" ch="1" vs="11" class="B B1" lemma="εἰμί" pos="vipa2s" title="εἰμί - vipa2s">εἶ</span>
+		<span id="18525" bk="Mark" ch="1" vs="11" class="T T1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="18526" bk="Mark" ch="1" vs="11" class="T T1" lemma="υἱός" pos="nnmsc" title="υἱός - nnmsc">υἱός</span>
+		<span id="18527" bk="Mark" ch="1" vs="11" class="T T1" lemma="ἐγώ" pos="rpg-s" title="ἐγώ - rpg-s">μου</span>
+		<span id="18528" bk="Mark" ch="1" vs="11" class="T T1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="18529" bk="Mark" ch="1" vs="11" class="T T1" lemma="ἀγαπητός" pos="annmsn" title="ἀγαπητός - annmsn">ἀγαπητός</span>
+		<span id="18530" bk="Mark" ch="1" vs="11" class="T T1" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+		<span id="18531" bk="Mark" ch="1" vs="11" class="B B1" lemma="σύ" pos="rpd-s" title="σύ - rpd-s">σοὶ</span>
+		<span id="18532" bk="Mark" ch="1" vs="11" class="T T1" lemma="εὐδοκέω" pos="viaa1s" title="εὐδοκέω - viaa1s">εὐδόκησα</span>
+	<br></br><br></br>
+	<p class="container-fluid text-right bottom pr-5"><b>Word Count: 53</b></p>
+	</div>
+	
+	<!--Luke-->
+	<div name="Luke 3:21-22" class="contrastbkg m-md-4 col-md">
+	<div class="container-fluid text-center"><h3>Luke 3:21-22</h3></div><sup> 21</sup>
+		<span id="32074" bk="Luke" ch="3" vs="21" class="B T1" lemma="γίνομαι" pos="viam3s" title="γίνομαι - viam3s">Ἐγένετο</span>
+		<span id="32075" bk="Luke" ch="3" vs="21" class="L L1" lemma="δέ" pos="cc" title="δέ - cc">δὲ</span>
+		<span id="32076" bk="Luke" ch="3" vs="21" class="L B1" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+		<span id="32077" bk="Luke" ch="3" vs="21" class="L C1" lemma="ὁ" pos="ddns" title="ὁ - ddns">τῷ</span>
+		<span id="32078" bk="Luke" ch="3" vs="21" class="C C1" lemma="βαπτίζω" pos="vnap" title="βαπτίζω - vnap">βαπτισθῆναι</span>
+		<span id="32079" bk="Luke" ch="3" vs="21" class="L L1" lemma="ἅπας" pos="anamsn" title="ἅπας - anamsn">ἅπαντα</span>
+		<span id="32080" bk="Luke" ch="3" vs="21" class="L L1" lemma="ὁ" pos="dams" title="ὁ - dams">τὸν</span>
+		<span id="32081" bk="Luke" ch="3" vs="21" class="L L1" lemma="λαός" pos="namsc" title="λαός - namsc">λαὸν</span>
+		<span id="32082" bk="Luke" ch="3" vs="21" class="B B1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="32083" bk="Luke" ch="3" vs="21" class="L C1" lemma="Ἰησοῦς" pos="ngmsp" title="Ἰησοῦς - ngmsp">Ἰησοῦ</span>
+		<span id="32084" bk="Luke" ch="3" vs="21" class="L T1" lemma="βαπτίζω" pos="vpapgms" title="βαπτίζω - vpapgms">βαπτισθέντος</span>
+		<span id="32085" bk="Luke" ch="3" vs="21" class="L L1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="32086" bk="Luke" ch="3" vs="21" class="L L1" lemma="προσεύχομαι" pos="vppmgms" title="προσεύχομαι - vppmgms">προσευχομένου</span>
+		<span id="32087" bk="Luke" ch="3" vs="21" class="L C1" lemma="ἀνοίγω" pos="vnap" title="ἀνοίγω - vnap">ἀνεῳχθῆναι</span>
+		<span id="32088" bk="Luke" ch="3" vs="21" class="T T1" lemma="ὁ" pos="dams" title="ὁ - dams">τὸν</span>
+		<span id="32089" bk="Luke" ch="3" vs="21" class="T T1" lemma="οὐρανός" pos="namsc" title="οὐρανός - namsc">οὐρανὸν</span><sup> 22</sup>
+		<span id="32090" bk="Luke" ch="3" vs="22" class="T T1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="32091" bk="Luke" ch="3" vs="22" class="L T1" lemma="καταβαίνω" pos="vnaa" title="καταβαίνω - vnaa">καταβῆναι</span>
+		<span id="32092" bk="Luke" ch="3" vs="22" class="T T1" lemma="ὁ" pos="dans" title="ὁ - dans">τὸ</span>
+		<span id="32093" bk="Luke" ch="3" vs="22" class="T T1" lemma="πνεῦμα" pos="nansc" title="πνεῦμα - nansc">πνεῦμα</span>
+		<span id="32094" bk="Luke" ch="3" vs="22" class="L L1" lemma="ὁ" pos="dans" title="ὁ - dans">τὸ</span>
+		<span id="32095" bk="Luke" ch="3" vs="22" class="L L1" lemma="ἅγιος" pos="anansn" title="ἅγιος - anansn">ἅγιον</span>
+		<span id="32096" bk="Luke" ch="3" vs="22" class="L L1" lemma="σωματικός" pos="andnsn" title="σωματικός - andnsn">σωματικῷ</span>
+		<span id="32097" bk="Luke" ch="3" vs="22" class="L T1" lemma="εἶδος" pos="ndnsc" title="εἶδος - ndnsc">εἴδει</span>
+		<span id="32098" bk="Luke" ch="3" vs="22" class="B B1" lemma="ὡς" pos="cs" title="ὡς - cs">ὡς</span>
+		<span id="32099" bk="Luke" ch="3" vs="22" class="T T1" lemma="περιστερά" pos="nafsc" title="περιστερά - nafsc">περιστερὰν</span>
+		<span id="32100" bk="Luke" ch="3" vs="22" class="C C1" lemma="ἐπί" pos="pa" title="ἐπί - pa">ἐπ</span>
+		<span id="32101" bk="Luke" ch="3" vs="22" class="T T1" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span>
+		<span id="32102" bk="Luke" ch="3" vs="22" class="T T1" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+		<span id="32103" bk="Luke" ch="3" vs="22" class="L T1" lemma="φωνή" pos="nafsc" title="φωνή - nafsc">φωνὴν</span>
+		<span id="32104" bk="Luke" ch="3" vs="22" class="L T1" lemma="ἐκ" pos="pg" title="ἐκ - pg">ἐξ</span>
+		<span id="32105" bk="Luke" ch="3" vs="22" class="L T1" lemma="οὐρανός" pos="ngmsc" title="οὐρανός - ngmsc">οὐρανοῦ</span>
+		<span id="32106" bk="Luke" ch="3" vs="22" class="L B1" lemma="γίνομαι" pos="vnam" title="γίνομαι - vnam">γενέσθαι</span>
+		<span id="32107" bk="Luke" ch="3" vs="22" class="B B1" lemma="σύ" pos="rpn-s" title="σύ - rpn-s">σὺ</span>
+		<span id="32108" bk="Luke" ch="3" vs="22" class="B B1" lemma="εἰμί" pos="vipa2s" title="εἰμί - vipa2s">εἶ</span>
+		<span id="32109" bk="Luke" ch="3" vs="22" class="T T1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="32110" bk="Luke" ch="3" vs="22" class="T T1" lemma="υἱός" pos="nnmsc" title="υἱός - nnmsc">υἱός</span>
+		<span id="32111" bk="Luke" ch="3" vs="22" class="T T1" lemma="ἐγώ" pos="rpg-s" title="ἐγώ - rpg-s">μου</span>
+		<span id="32112" bk="Luke" ch="3" vs="22" class="T T1" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+		<span id="32113" bk="Luke" ch="3" vs="22" class="T T1" lemma="ἀγαπητός" pos="annmsn" title="ἀγαπητός - annmsn">ἀγαπητός</span>
+		<span id="32114" bk="Luke" ch="3" vs="22" class="T T1" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+		<span id="32115" bk="Luke" ch="3" vs="22" class="B B1" lemma="σύ" pos="rpd-s" title="σύ - rpd-s">σοὶ</span>
+		<span id="32116" bk="Luke" ch="3" vs="22" class="T T1" lemma="εὐδοκέω" pos="viaa1s" title="εὐδοκέω - viaa1s">εὐδόκησα</span>	
+	<br></br><br></br>
+	<p class="container-fluid text-right bottom pr-5"><b>Word Count: 43</b></p>
+	</div>
+</div>
+
+<!--John-->
+<div class="container">
+	<div class="row">
+		<div name="John 1:29-34" class="contrastbkg m-md-4 col-md">
+		<div class="container-fluid text-center"><h3>John 1:29-34</h3></div><sup> 29</sup>
+			<span id="49552" bk="John" ch="1" vs="29" lemma="ὁ" pos="ddfs" title="ὁ - ddfs">Τῇ</span>
+			<span id="49553" bk="John" ch="1" vs="29" lemma="ἐπαύριον" pos="b" title="ἐπαύριον - b">ἐπαύριον</span>
+			<span id="49554" bk="John" ch="1" vs="29" lemma="βλέπω" pos="vipa3s" title="βλέπω - vipa3s">βλέπει</span>
+			<span id="49555" bk="John" ch="1" vs="29" lemma="ὁ" pos="dams" title="ὁ - dams">τὸν</span>
+			<span id="49556" bk="John" ch="1" vs="29" lemma="Ἰησοῦς" pos="namsp" title="Ἰησοῦς - namsp">Ἰησοῦν</span>
+			<span id="49557" bk="John" ch="1" vs="29" lemma="ἔρχομαι" pos="vppmams" title="ἔρχομαι - vppmams">ἐρχόμενον</span>
+			<span id="49558" bk="John" ch="1" vs="29" lemma="πρός" pos="pa" title="πρός - pa">πρὸς</span>
+			<span id="49559" bk="John" ch="1" vs="29" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτὸν</span>
+			<span id="49560" bk="John" ch="1" vs="29" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+			<span id="49561" bk="John" ch="1" vs="29" lemma="λέγω" pos="vipa3s" title="λέγω - vipa3s">λέγει</span>
+			<span id="49562" bk="John" ch="1" vs="29" lemma="ὁράω" pos="i" title="ὁράω - i">ἴδε</span>
+			<span id="49563" bk="John" ch="1" vs="29" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+			<span id="49564" bk="John" ch="1" vs="29" lemma="ἀμνός" pos="nnmsc" title="ἀμνός - nnmsc">ἀμνὸς</span>
+			<span id="49565" bk="John" ch="1" vs="29" lemma="ὁ" pos="dgms" title="ὁ - dgms">τοῦ</span>
+			<span id="49566" bk="John" ch="1" vs="29" lemma="θεός" pos="ngmsc" title="θεός - ngmsc">θεοῦ</span>
+			<span id="49567" bk="John" ch="1" vs="29" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+			<span id="49568" bk="John" ch="1" vs="29" lemma="αἴρω" pos="vppanms" title="αἴρω - vppanms">αἴρων</span>
+			<span id="49569" bk="John" ch="1" vs="29" lemma="ὁ" pos="dafs" title="ὁ - dafs">τὴν</span>
+			<span id="49570" bk="John" ch="1" vs="29" lemma="ἁμαρτία" pos="nafsc" title="ἁμαρτία - nafsc">ἁμαρτίαν</span>
+			<span id="49571" bk="John" ch="1" vs="29" lemma="ὁ" pos="dgms" title="ὁ - dgms">τοῦ</span>
+			<span id="49572" bk="John" ch="1" vs="29" lemma="κόσμος" pos="ngmsc" title="κόσμος - ngmsc">κόσμου</span><sup> 30</sup>
+			<span id="49573" bk="John" ch="1" vs="30" lemma="οὗτος" pos="rdnms" title="οὗτος - rdnms">οὗτός</span>
+			<span id="49574" bk="John" ch="1" vs="30" lemma="εἰμί" pos="vipa3s" title="εἰμί - vipa3s">ἐστιν</span>
+			<span id="49575" bk="John" ch="1" vs="30" lemma="ὑπέρ" pos="pg" title="ὑπέρ - pg">ὑπὲρ</span>
+			<span id="49576" bk="John" ch="1" vs="30" lemma="ὅς" pos="rrgms" title="ὅς - rrgms">οὗ</span>
+			<span id="49577" bk="John" ch="1" vs="30" lemma="ἐγώ" pos="rpn-s" title="ἐγώ - rpn-s">ἐγὼ</span>
+			<span id="49578" bk="John" ch="1" vs="30" lemma="λέγω" pos="viaa1s" title="λέγω - viaa1s">εἶπον</span>
+			<span id="49579" bk="John" ch="1" vs="30" lemma="ὀπίσω" pos="pg" title="ὀπίσω - pg">ὀπίσω</span>
+			<span id="49580" bk="John" ch="1" vs="30" lemma="ἐγώ" pos="rpg-s" title="ἐγώ - rpg-s">μου</span>
+			<span id="49581" bk="John" ch="1" vs="30" lemma="ἔρχομαι" pos="vipm3s" title="ἔρχομαι - vipm3s">ἔρχεται</span>
+			<span id="49582" bk="John" ch="1" vs="30" lemma="ἀνήρ" pos="nnmsc" title="ἀνήρ - nnmsc">ἀνὴρ</span>
+			<span id="49583" bk="John" ch="1" vs="30" lemma="ὅς" pos="rrnms" title="ὅς - rrnms">ὃς</span>
+			<span id="49584" bk="John" ch="1" vs="30" lemma="ἔμπροσθεν" pos="pg" title="ἔμπροσθεν - pg">ἔμπροσθέν</span>
+			<span id="49585" bk="John" ch="1" vs="30" lemma="ἐγώ" pos="rpg-s" title="ἐγώ - rpg-s">μου</span>
+			<span id="49586" bk="John" ch="1" vs="30" lemma="γίνομαι" pos="vixa3s" title="γίνομαι - vixa3s">γέγονεν</span>
+			<span id="49587" bk="John" ch="1" vs="30" lemma="ὅτι" pos="cs" title="ὅτι - cs">ὅτι</span>
+			<span id="49588" bk="John" ch="1" vs="30" lemma="πρῶτος" pos="aonmsn" title="πρῶτος - aonmsn">πρῶτός</span>
+			<span id="49589" bk="John" ch="1" vs="30" lemma="ἐγώ" pos="rpg-s" title="ἐγώ - rpg-s">μου</span>
+			<span id="49590" bk="John" ch="1" vs="30" lemma="εἰμί" pos="viia3s" title="εἰμί - viia3s">ἦν</span><sup> 31</sup>
+			<span id="49591" bk="John" ch="1" vs="31" lemma="καί+ἐγώ" pos="cc&rpn-s" title="καί+ἐγώ - cc&rpn-s">κἀγὼ</span>
+			<span id="49592" bk="John" ch="1" vs="31" lemma="οὐ" pos="b" title="οὐ - b">οὐκ</span>
+			<span id="49593" bk="John" ch="1" vs="31" lemma="οἶδα" pos="viya1s" title="οἶδα - viya1s">ᾔδειν</span>
+			<span id="49594" bk="John" ch="1" vs="31" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span>
+			<span id="49595" bk="John" ch="1" vs="31" lemma="ἀλλά" pos="cc" title="ἀλλά - cc">ἀλλ</span>
+			<span id="49596" bk="John" ch="1" vs="31" lemma="ἵνα" pos="cs" title="ἵνα - cs">ἵνα</span>
+			<span id="49597" bk="John" ch="1" vs="31" lemma="φανερόω" pos="vsap3s" title="φανερόω - vsap3s">φανερωθῇ</span>
+			<span id="49598" bk="John" ch="1" vs="31" lemma="ὁ" pos="ddms" title="ὁ - ddms">τῷ</span>
+			<span id="49599" bk="John" ch="1" vs="31" lemma="Ἰσραήλ" pos="ndmsp" title="Ἰσραήλ - ndmsp">Ἰσραὴλ</span>
+			<span id="49600" bk="John" ch="1" vs="31" lemma="διά" pos="pa" title="διά - pa">διὰ</span>
+			<span id="49601" bk="John" ch="1" vs="31" lemma="οὗτος" pos="rdans" title="οὗτος - rdans">τοῦτο</span>
+			<span id="49602" bk="John" ch="1" vs="31" lemma="ἔρχομαι" pos="viaa1s" title="ἔρχομαι - viaa1s">ἦλθον</span>
+			<span id="49603" bk="John" ch="1" vs="31" lemma="ἐγώ" pos="rpn-s" title="ἐγώ - rpn-s">ἐγὼ</span>
+			<span id="49604" bk="John" ch="1" vs="31" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+			<span id="49605" bk="John" ch="1" vs="31" lemma="ὕδωρ" pos="ndnsc" title="ὕδωρ - ndnsc">ὕδατι</span>
+			<span id="49606" bk="John" ch="1" vs="31" lemma="βαπτίζω" pos="vppanms" title="βαπτίζω - vppanms">βαπτίζων</span><sup> 32</sup>
+			<span id="49607" bk="John" ch="1" vs="32" lemma="καί" pos="cc" title="καί - cc">Καὶ</span>
+			<span id="49608" bk="John" ch="1" vs="32" lemma="μαρτυρέω" pos="viaa3s" title="μαρτυρέω - viaa3s">ἐμαρτύρησεν</span>
+			<span id="49609" bk="John" ch="1" vs="32" lemma="Ἰωάννης" pos="nnmsp" title="Ἰωάννης - nnmsp">Ἰωάννης</span>
+			<span id="49610" bk="John" ch="1" vs="32" lemma="λέγω" pos="vppanms" title="λέγω - vppanms">λέγων</span>
+			<span id="49611" bk="John" ch="1" vs="32" lemma="ὅτι" pos="cs" title="ὅτι - cs">ὅτι</span>
+			<span id="49612" bk="John" ch="1" vs="32" lemma="θεάομαι" pos="vixm1s" title="θεάομαι - vixm1s">τεθέαμαι</span>
+			<span id="49613" bk="John" ch="1" vs="32" lemma="ὁ" pos="dans" title="ὁ - dans">τὸ</span>
+			<span id="49614" bk="John" ch="1" vs="32" lemma="πνεῦμα" pos="nansc" title="πνεῦμα - nansc">πνεῦμα</span>
+			<span id="49615" bk="John" ch="1" vs="32" lemma="καταβαίνω" pos="vppaans" title="καταβαίνω - vppaans">καταβαῖνον</span>
+			<span id="49616" bk="John" ch="1" vs="32" lemma="ὡς" pos="cs" title="ὡς - cs">ὡς</span>
+			<span id="49617" bk="John" ch="1" vs="32" lemma="περιστερά" pos="nafsc" title="περιστερά - nafsc">περιστερὰν</span>
+			<span id="49618" bk="John" ch="1" vs="32" lemma="ἐκ" pos="pg" title="ἐκ - pg">ἐξ</span>
+			<span id="49619" bk="John" ch="1" vs="32" lemma="οὐρανός" pos="ngmsc" title="οὐρανός - ngmsc">οὐρανοῦ</span>
+			<span id="49620" bk="John" ch="1" vs="32" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+			<span id="49621" bk="John" ch="1" vs="32" lemma="μένω" pos="viaa3s" title="μένω - viaa3s">ἔμεινεν</span>
+			<span id="49622" bk="John" ch="1" vs="32" lemma="ἐπί" pos="pa" title="ἐπί - pa">ἐπ</span>
+			<span id="49623" bk="John" ch="1" vs="32" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span><sup> 33</sup>
+			<span id="49624" bk="John" ch="1" vs="33" lemma="καί+ἐγώ" pos="cc&rpn-s" title="καί+ἐγώ - cc&rpn-s">κἀγὼ</span>
+			<span id="49625" bk="John" ch="1" vs="33" lemma="οὐ" pos="b" title="οὐ - b">οὐκ</span>
+			<span id="49626" bk="John" ch="1" vs="33" lemma="οἶδα" pos="viya1s" title="οἶδα - viya1s">ᾔδειν</span>
+			<span id="49627" bk="John" ch="1" vs="33" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span>
+			<span id="49628" bk="John" ch="1" vs="33" lemma="ἀλλά" pos="cc" title="ἀλλά - cc">ἀλλ</span>
+			<span id="49629" bk="John" ch="1" vs="33" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+			<span id="49630" bk="John" ch="1" vs="33" lemma="πέμπω" pos="vpaanms" title="πέμπω - vpaanms">πέμψας</span>
+			<span id="49631" bk="John" ch="1" vs="33" lemma="ἐγώ" pos="rpa-s" title="ἐγώ - rpa-s">με</span>
+			<span id="49632" bk="John" ch="1" vs="33" lemma="βαπτίζω" pos="vnpa" title="βαπτίζω - vnpa">βαπτίζειν</span>
+			<span id="49633" bk="John" ch="1" vs="33" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+			<span id="49634" bk="John" ch="1" vs="33" lemma="ὕδωρ" pos="ndnsc" title="ὕδωρ - ndnsc">ὕδατι</span>
+			<span id="49635" bk="John" ch="1" vs="33" lemma="ἐκεῖνος" pos="rdnms" title="ἐκεῖνος - rdnms">ἐκεῖνός</span>
+			<span id="49636" bk="John" ch="1" vs="33" lemma="ἐγώ" pos="rpd-s" title="ἐγώ - rpd-s">μοι</span>
+			<span id="49637" bk="John" ch="1" vs="33" lemma="λέγω" pos="viaa3s" title="λέγω - viaa3s">εἶπεν</span>
+			<span id="49638" bk="John" ch="1" vs="33" lemma="ἐπί" pos="pa" title="ἐπί - pa">ἐφ</span>
+			<span id="49639" bk="John" ch="1" vs="33" lemma="ὅς" pos="rrams" title="ὅς - rrams">ὃν</span>
+			<span id="49640" bk="John" ch="1" vs="33" lemma="ἄν" pos="x" title="ἄν - x">ἂν</span>
+			<span id="49641" bk="John" ch="1" vs="33" lemma="ὁράω" pos="vsaa2s" title="ὁράω - vsaa2s">ἴδῃς</span>
+			<span id="49642" bk="John" ch="1" vs="33" lemma="ὁ" pos="dans" title="ὁ - dans">τὸ</span>
+			<span id="49643" bk="John" ch="1" vs="33" lemma="πνεῦμα" pos="nansc" title="πνεῦμα - nansc">πνεῦμα</span>
+			<span id="49644" bk="John" ch="1" vs="33" lemma="καταβαίνω" pos="vppaans" title="καταβαίνω - vppaans">καταβαῖνον</span>
+			<span id="49645" bk="John" ch="1" vs="33" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+			<span id="49646" bk="John" ch="1" vs="33" lemma="μένω" pos="vppaans" title="μένω - vppaans">μένον</span>
+			<span id="49647" bk="John" ch="1" vs="33" lemma="ἐπί" pos="pa" title="ἐπί - pa">ἐπ</span>
+			<span id="49648" bk="John" ch="1" vs="33" lemma="αὐτός" pos="rpams" title="αὐτός - rpams">αὐτόν</span>
+			<span id="49649" bk="John" ch="1" vs="33" lemma="οὗτος" pos="rdnms" title="οὗτος - rdnms">οὗτός</span>
+			<span id="49650" bk="John" ch="1" vs="33" lemma="εἰμί" pos="vipa3s" title="εἰμί - vipa3s">ἐστιν</span>
+			<span id="49651" bk="John" ch="1" vs="33" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+			<span id="49652" bk="John" ch="1" vs="33" lemma="βαπτίζω" pos="vppanms" title="βαπτίζω - vppanms">βαπτίζων</span>
+			<span id="49653" bk="John" ch="1" vs="33" lemma="ἐν" pos="pd" title="ἐν - pd">ἐν</span>
+			<span id="49654" bk="John" ch="1" vs="33" lemma="πνεῦμα" pos="ndnsc" title="πνεῦμα - ndnsc">πνεύματι</span>
+			<span id="49655" bk="John" ch="1" vs="33" lemma="ἅγιος" pos="andnsn" title="ἅγιος - andnsn">ἁγίῳ</span><sup> 34</sup>
+			<span id="49656" bk="John" ch="1" vs="34" lemma="καί+ἐγώ" pos="cc&rpn-s" title="καί+ἐγώ - cc&rpn-s">κἀγὼ</span>
+			<span id="49657" bk="John" ch="1" vs="34" lemma="ὁράω" pos="vixa1s" title="ὁράω - vixa1s">ἑώρακα</span>
+			<span id="49658" bk="John" ch="1" vs="34" lemma="καί" pos="cc" title="καί - cc">καὶ</span>
+			<span id="49659" bk="John" ch="1" vs="34" lemma="μαρτυρέω" pos="vixa1s" title="μαρτυρέω - vixa1s">μεμαρτύρηκα</span>
+			<span id="49660" bk="John" ch="1" vs="34" lemma="ὅτι" pos="cs" title="ὅτι - cs">ὅτι</span>
+			<span id="49661" bk="John" ch="1" vs="34" lemma="οὗτος" pos="rdnms" title="οὗτος - rdnms">οὗτός</span>
+			<span id="49662" bk="John" ch="1" vs="34" lemma="εἰμί" pos="vipa3s" title="εἰμί - vipa3s">ἐστιν</span>
+			<span id="49663" bk="John" ch="1" vs="34" lemma="ὁ" pos="dnms" title="ὁ - dnms">ὁ</span>
+			<span id="49664" bk="John" ch="1" vs="34" lemma="υἱός" pos="nnmsc" title="υἱός - nnmsc">υἱὸς</span>
+			<span id="49665" bk="John" ch="1" vs="34" lemma="ὁ" pos="dgms" title="ὁ - dgms">τοῦ</span>
+			<span id="49666" bk="John" ch="1" vs="34" lemma="θεός" pos="ngmsc" title="θεός - ngmsc">θεοῦ</span>
+		<br></br><br></br>
+		<p class="container-fluid text-right bottom pr-5"><b>Word Count: 115</b></p>
+		</div>
+	</div>
+</div>
+
+<!--Display Synopsis Legend-->
+<div class="container-fluid px-5">
+	<div class="row">
+		<div class="col-5 div-center pb-3">
+			<a href="../synopses.html" class="btn btn-lg btn-outline-dark narrow" type="button">
+				Return to Synopsis Menu</span></a>
+			<a href="../synopses-howto.html" class="btn btn-lg btn-outline-dark narrow" type="button" target="_blank">
+				<i class="fas fa-book"></i> User Guide</a>
+			<a src="../../resources/BibleWorks10-GreekMorphCodes.pdf" href="https://www.bibleworks.com/bw9help/bwh43a_Codes_BLM.htm" 
+				class="btn btn-lg btn-outline-dark narrow" type="button" target="_blank"><i class="fas fa-list-ul"></i> Parsing Chart</a>
+		</div>
+		<div class="col float-right d-none d-md-block">
+			<table class="table table-hover table-striped">
+				<thead>
+					<tr>
+						<th scope="col"></th>
+						<th scope="col">Word Count (Text)</th>
+						<th scope="cole">Word Count (Lemma)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Unique Matthew</th>
+						<td>###</td>
+						<td>###</td>
+					</tr>
+					<tr>
+						<th scope="row">Unique Mark</th>
+						<td>###</td>
+						<td>###</td>
+					</tr>
+					<tr>
+						<th scope="row">Unique Luke</th>
+						<td>###</td>
+						<td>###</td>
+					</tr>
+					<tr>
+						<th scope="row">Matthew and Mark</th>
+						<td>###</td>
+						<td>###</td>
+					</tr>
+					<tr>
+						<th scope="row">Mark and Luke</th>
+						<td>###</td>
+						<td>###</td>
+					</tr>
+					<tr>
+						<th scope="row">Matthew and Luke</th>
+						<td>###</td>
+						<td>###</td>
+					</tr>
+					<tr>
+						<th scope="row">Triple</th>
+						<td>###</td>
+						<td>###</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td><b>Total Words</b></td>
+						<td>###</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer sticky-bottom font-small teal py-2 bg-dark text-white">
+    <div class="container-fluid text-center text-md-left d-none d-md-block">
+		<div class="row">
+			<div class="col-md-2.5 pl-5">
+			    <a href="https://goo.gl/images/BkMKMf" target="_blank">
+					<img src="../images/book-of-kells-gospels.jpg" style="width: 100px; width: 100px;">
+				</a>
+			</div>
+			<div class="col-md">
+				<p>Gospel Data</p>
+				<p>Copyright 2019</p>
+				<p><a class="anchor" href="mailto:dkchristensen@uchicago.edu">Daniel K. Christensen</a></p>
+			</div>
+			<div class="col-md">
+				<p><a class="anchor" href="../index.html">Home</a></p>
+				<p><a class="anchor" href="../synopses.html">Synopses</a></p>
+
+				<p><a class="anchor" href="../about.html">About</a></p>
+				<p><a class="anchor" href="../contact.html">Contact</a></p>
+			</div>
+		</div>
+    </div>
+</footer>
+	
+<!--External Scripts-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!--Local Scripts
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/popper.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="../scripts/test.js"></script>-->
+<script src="../scripts/changestyle.js"></script>
+<script src="../scripts/wordPink.js"></script>
+<script src="../scripts/chooseOwnColors.js"></script>
+
+
+
+
+
+</body>
+
+</html>
