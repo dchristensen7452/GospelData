@@ -4,9 +4,11 @@ Gospel Data Project
 ###Prerequisites
 
 ##Built With
+Bootstrap
+BibleWorks 10
 
-##Contributors
-
+##How to Contribute
+Please
 ##Authors
 Daniel K. Christensen 
 ##Acknowledgements
