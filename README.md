@@ -1,14 +1,17 @@
 # GospelData
 Gospel Data Project
 ## Getting Started
-###Prerequisites
 
-##Built With
+### Prerequisites
+
+## Built With
 Bootstrap
 BibleWorks 10
 
-##How to Contribute
+## How to Contribute
 Please
-##Authors
+
+## Authors
 Daniel K. Christensen 
-##Acknowledgements
+
+## Acknowledgements
