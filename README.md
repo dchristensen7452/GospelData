@@ -10,7 +10,7 @@ Lastly, I hope this website will become a resource for others who study to Synop
 ## Getting Started
 The Gospel Data Projected is indended to be a functioning website. It can be viewed in two ways.
 ### In a browser
-The following link will display the project as a website.
+The following link will display the project as a website. https://dchristensen7452.github.io/GospelData/
 ### LocalHost Environment
 If you want to work with the code in your own environement, simply download the repository and load the files into your localhost folder.
 
