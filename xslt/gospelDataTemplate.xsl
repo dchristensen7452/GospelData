@@ -9,8 +9,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <head>
 	<title>
-		<xsl:value-of select="/pericopae/pericope[43]/number"/> - 
-		<xsl:value-of select="/pericopae/pericope[43]/title"/>
+		<xsl:value-of select="/table/rows/row[43]/value[1]"/>
+		- 
+		<xsl:value-of select="/table/rows/row[43]/value[9]"/>
 	</title>
 	<meta name="author" content="Daniel Christensen"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -64,9 +65,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <div class="jumbotron jumbotron-fluid text-center">
 	<div class="container title-bkg">
 		<p id="testTitle" class="title">
-			<xsl:value-of select="/pericopae/pericope[43]/title"/>
+			<xsl:value-of select="/table/rows/row[43]/value[9]"/>
 		</p>
-			<p class="subtitle d-none d-md-block">Synopsis #<xsl:value-of select="/pericopae/pericope[43]/number"/>
+		<p class="subtitle d-none d-md-block">Synopsis #<xsl:value-of select="/table/rows/row[43]/value[1]"/>
 		</p>
 	</div>
 </div>
@@ -82,11 +83,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</div>
 		<div class="col">
 			<div class="container-fluid d-none d-md-block">
-				<a href="{pericopae/pericope[43]/imageHREF}" target="_blank">
-					<img class="img-fluid rounded mx-auto d-md-block" style="max-height: 500px" alt="Responsive image" src="{pericopae/pericope[43]/imageSRC}"/>
+				<a href="{table/rows/row[43]/value[30]}" target="_blank">
+					<img class="img-fluid rounded mx-auto d-md-block" style="max-height: 500px" alt="Responsive image" src="../images/{table/rows/row[43]/value[31]}"/>
 				</a>
 				<p class="text-center">
-					<xsl:value-of select="/pericopae/pericope[43]/imageCaption"/>
+					<xsl:value-of select="/table/rows/row[43]/value[29]"/>
 				</p>
 			</div>
 		</div>
@@ -271,33 +272,27 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <div class="top row px-3">
 	<div name="Matt" class="contrastbkg m-md-4 col-md">
 		<div class="container-fluid text-center"><h3>Matthew 
-			<xsl:value-of select="/pericopae/pericope[43]/mattStart"/>:
-			<xsl:value-of select="/pericopae/pericope[43]/mattVs"/> -
-			<xsl:value-of select="/pericopae/pericope[43]/mattVsEnd"/>
+			<xsl:value-of select="/table/rows/row[43]/value[2]"/>
 		</h3></div>
-		<xsl:apply-templates select="//pericopae/pericope[43]/Matt"></xsl:apply-templates>
+		<xsl:apply-templates select="table/rows/row[43]/Matt/results/rows"></xsl:apply-templates>
 	<br></br><br></br>&#xA0;
-		<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/pericopae/pericope[43]/words/wordsM"/></b></p>
+		<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/table/rows/row[43]/value[10]"/></b></p>
 	</div>
 	<div name="Mark" class="contrastbkg m-md-4 col-md text-column">
 		<div class="container-fluid text-center"><h3>Mark 
-			<xsl:value-of select="/pericopae/pericope[43]/markStart"/>:
-			<xsl:value-of select="/pericopae/pericope[43]/markVs"/> -
-			<xsl:value-of select="/pericopae/pericope[43]/markVsEnd"/>
+			<xsl:value-of select="/table/rows/row[43]/value[3]"/>
 		</h3></div>
-		<xsl:apply-templates select="//pericopae/pericope[43]/Mark"></xsl:apply-templates>
+		<xsl:apply-templates select="table/rows/row[43]/Mark/results/rows"></xsl:apply-templates>
 	<br></br><br></br>&#xA0;
-		<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/pericopae/pericope[43]/words/wordsR"/></b></p>
+		<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/table/rows/row[43]/value[11]"/></b></p>
 	</div>
 	<div name="Luke" class="contrastbkg m-md-4 col-md">
 		<div class="container-fluid text-center"><h3>Luke 
-			<xsl:value-of select="/pericopae/pericope[43]/lukeStart"/>:
-			<xsl:value-of select="/pericopae/pericope[43]/lukeVs"/> -
-			<xsl:value-of select="/pericopae/pericope[43]/lukeVsEnd"/>
+			<xsl:value-of select="/table/rows/row[43]/value[4]"/>
 		</h3></div>
-		<xsl:apply-templates select="//pericopae/pericope[43]/Luke"></xsl:apply-templates>
+		<xsl:apply-templates select="table/rows/row[43]/Luke/results/rows"></xsl:apply-templates>
 	<br></br><br></br>&#xA0;
-		<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/pericopae/pericope[43]/words/wordsL"/></b></p>
+		<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/table/rows/row[43]/value[12]"/></b></p>
 	</div>
 </div>
 </div>
@@ -307,13 +302,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<div class="row">
 		<div name="John" class="contrastbkg m-md-4 col-md">
 		<div class="container-fluid text-center"><h3>John
-			<xsl:value-of select="/pericopae/pericope[43]/johnStart"/>:
-			<xsl:value-of select="/pericopae/pericope[43]/johnVs"/> -
-			<xsl:value-of select="/pericopae/pericope[43]/johnVsEnd"/>
+			<xsl:value-of select="/table/rows/row[43]/value[5]"/>
 		</h3></div>
-			<xsl:apply-templates select="pericopae/pericope[43]/John"></xsl:apply-templates>
+			<xsl:apply-templates select="table/rows/row[43]/John/results/rows"></xsl:apply-templates>
 		<br></br><br></br>&#xA0;
-			<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/pericopae/pericope[43]/words/wordsJ"/></b></p>
+			<p class="container-fluid text-right bottom pr-5"><b>Word Count: <xsl:value-of select="/table/rows/row[43]/value[13]"/></b></p>
 		</div>
 	</div>
 </div>
@@ -341,43 +334,43 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<tbody>
 					<tr>
 						<th scope="row">Unique Matthew</th>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsUMT"/></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsUML"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[14]"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[15]"/></td>
 					</tr>
 					<tr>
 						<th scope="row">Unique Mark</th>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsURT"/></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsURL"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[16]"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[17]"/></td>
 					</tr>
 					<tr>
 						<th scope="row">Unique Luke</th>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsULT"/></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsULL"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[18]"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[19]"/></td>
 					</tr>
 					<tr>
 						<th scope="row">Matthew and Mark</th>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsMRT"/></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsMRL"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[20]"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[21]"/></td>
 					</tr>
 					<tr>
 						<th scope="row">Mark and Luke</th>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsRLT"/></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsRLL"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[22]"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[23]"/></td>
 					</tr>
 					<tr>
 						<th scope="row">Matthew and Luke</th>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsMLT"/></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsMLL"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[24]"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[25]"/></td>
 					</tr>
 					<tr>
 						<th scope="row">Triple</th>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsTT"/></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/wordsTL"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[26]"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[27]"/></td>
 					</tr>
 					<tr>
 						<th scope="row"></th>
 						<td><b>Total Words</b></td>
-						<td><xsl:value-of select="/pericopae/pericope[43]/words/total"/></td>
+						<td><xsl:value-of select="/table/rows/row[43]/value[28]"/></td>
 					</tr>
 				</tbody>
 			</table>
@@ -434,37 +427,45 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <!--XSL StyleSheet Templates-->
 	
 	<!--Load Words for Matthew-->
-	<xsl:template match="/pericopae/pericope[43]/Matt">
-		<xsl:for-each select="/pericopae/pericope[43]/Matt/word">
-			<span id="{iden}" class="{textMatch} {lemmaMatch}" bk="{bk}" ch="{ch}" vs="{vs}" src="{mRef} {rRef} {lRef}" lemma="{lemma}" pos="{pos}" title="{lemma} - {pos}">
-				<xsl:value-of select="text"/>
+	<xsl:template match="table/rows/row[43]/Matt/results/rows">
+		<xsl:for-each select="row">
+			<sup><xsl:value-of select="value[20]"/></sup><xsl:text> </xsl:text>
+			<span id="{value[1]}" class="{value[10]} {value[11]}" bk="{value[5]}" ch="{value[6]}" vs="{value[7]}" 
+				src="{value[8]} {value[9]}" lemma="{value[3]}" pos="{value[4]}" title="{value[3]} - {value[4]}">
+				<xsl:value-of select="value[2]"/>
 			</span><xsl:text>&#10;</xsl:text>
 		</xsl:for-each>
 	</xsl:template>
 	
 	<!--Load Words for Mark-->
-	<xsl:template match="/pericopae/pericope[43]/Mark">
-		<xsl:for-each select="/pericopae/pericope[43]/Mark/word">
-			<span id="{iden}" class="{textMatch} {lemmaMatch}" bk="{bk}" ch="{ch}" vs="{vs}" src="{mRef} {rRef} {lRef}" lemma="{lemma}" pos="{pos}" title="{lemma} - {pos}">
-				<xsl:value-of select="text"/>
+	<xsl:template match="table/rows/row[43]/Mark/results/rows">
+		<xsl:for-each select="row">
+			<sup><xsl:value-of select="value[20]"/></sup><xsl:text> </xsl:text>
+			<span id="{value[1]}" class="{value[10]} {value[11]}" bk="{value[5]}" ch="{value[6]}" vs="{value[7]}" 
+				src="{value[8]} {value[9]}" lemma="{value[3]}" pos="{value[4]}" title="{value[3]} - {value[4]}">
+				<xsl:value-of select="value[2]"/>
 			</span><xsl:text>&#10;</xsl:text>
 		</xsl:for-each>
 	</xsl:template>
 	
 	<!--Load Words for Luke-->
-	<xsl:template match="/pericopae/pericope[43]/Luke">
-		<xsl:for-each select="/pericopae/pericope[43]/Luke/word">
-			<span id="{iden}" class="{textMatch} {lemmaMatch}" bk="{bk}" ch="{ch}" vs="{vs}" src="{mRef} {rRef} {lRef}" lemma="{lemma}" pos="{pos}" title="{lemma} - {pos}">
-				<xsl:value-of select="text"/>
+	<xsl:template match="table/rows/row[43]/Luke/results/rows">
+		<xsl:for-each select="row">
+			<sup><xsl:value-of select="value[20]"/></sup><xsl:text> </xsl:text>
+			<span id="{value[1]}" class="{value[10]} {value[11]}" bk="{value[5]}" ch="{value[6]}" vs="{value[7]}" 
+				src="{value[8]} {value[9]}" lemma="{value[3]}" pos="{value[4]}" title="{value[3]} - {value[4]}">
+				<xsl:value-of select="value[2]"/>
 			</span><xsl:text>&#10;</xsl:text>
 		</xsl:for-each>
 	</xsl:template>
 	
 	<!--Load Words for John-->
-	<xsl:template match="/pericopae/pericope[43]/John">
-		<xsl:for-each select="/pericopae/pericope[43]/John/word">
-			<span id="{iden}" class="{textMatch} {lemmaMatch}" bk="{bk}" ch="{ch}" vs="{vs}" src="{mRef} {rRef} {lRef}" lemma="{lemma}" pos="{pos}" title="{lemma} - {pos}">
-				<xsl:value-of select="text"/>
+	<xsl:template match="table/rows/row[43]/John/results/rows">
+		<xsl:for-each select="row">
+			<sup><xsl:value-of select="value[21]"/></sup><xsl:text> </xsl:text>
+			<span id="{value[1]}" class="{value[11]} {value[12]}" bk="{value[5]}" ch="{value[6]}" vs="{value[7]}" 
+				src="{value[8]} {value[9]} {value[10]}" lemma="{value[3]}" pos="{value[4]}" title="{value[3]} - {value[4]}">
+				<xsl:value-of select="value[2]"/>
 			</span><xsl:text>&#10;</xsl:text>
 		</xsl:for-each>
 	</xsl:template>
