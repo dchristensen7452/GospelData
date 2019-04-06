@@ -22,6 +22,6 @@ BibleWorks 10
 Please
 
 ## Authors
-Daniel K. Christensen 
+Daniel K. Christensen dkchristensen@uchicago.edu
 
 ## Acknowledgements
