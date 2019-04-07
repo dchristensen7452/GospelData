@@ -15,8 +15,8 @@ The following link will display the project as a website. https://dchristensen74
 If you want to work with the code in your own environement, simply download the repository and load the files into your localhost folder.
 
 ## Built With
-Bootstrap
-BibleWorks 10
+- Bootstrap
+- BibleWorks 10
 
 ## How to Contribute
 Please contact Daniel Christensen if you are interested in contributing.
