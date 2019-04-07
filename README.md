@@ -12,11 +12,11 @@ The Gospel Data Projected is indended to be a functioning website. It can be vie
 ### In a browser
 The following link will display the project as a website. https://dchristensen7452.github.io/GospelData/
 ### LocalHost Environment
-If you want to work with the code in your own environement, simply download the repository and load the files into your localhost folder.
+If you want to work with the code in your own environement, simply download the repository and load the files into your localhost folder. "GospelData" is the parent folder for all the child nodes.
 
 ## Built With
-- Bootstrap
-- BibleWorks 10
+- Bootstrap (https://getbootstrap.com/)
+- BibleWorks 10 (https://www.bibleworks.com/)
 
 ## How to Contribute
 Please contact Daniel Christensen if you are interested in contributing.
