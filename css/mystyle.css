@@ -22,6 +22,8 @@
 .jumbotron {
 	background: url("../images/lindisfarne-gospels.jpg"); 
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
 }
 
 .top-border {
