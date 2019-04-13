@@ -19,7 +19,7 @@ If you want to work with the code in your own environement, simply download the 
 - BibleWorks 10 (https://www.bibleworks.com/)
 
 ## How to Contribute
-Please contact Daniel Christensen if you are interested in contributing.
+Please contact Daniel Christensen if you are interested in contributing or have questions/comments about the project.
 
 ## Authors
 Daniel K. Christensen dkchristensen@uchicago.edu
