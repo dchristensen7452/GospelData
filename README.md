@@ -3,7 +3,7 @@ The Gospel Data project is part of my ongoing investigation of the Synoptic Gosp
 
 This website is, in one instance, my final project for DIGS 30005 - Data Publication, where I display my knowledge and implementation of resources for digital publication such as, HTML, CSS, JavaScript, jQuery, XML, and XSL. 
 
-In another, it serves as a sort of "digital appendix" to my Master's Thesis at the University of Chicago entitled "Gospel Data: Operationalizing Exegesis through Empirical Analysis of the Synoptic Gospels." In this regard I hope to use this website to display my notes on the Synoptic texts and highlight the ways in which they can be analyzed. 
+In another, it serves as a sort of "digital appendix" to my Master's Thesis at the University of Chicago entitled "Gospel Data: The Utility of Empirical Analyses of the Synoptics Gospels seen through an Exegesis of the Healing of the Paralytic." In this regard I hope to use this website to display my notes on the Synoptic texts and highlight the ways in which they can be analyzed. 
 
 Lastly, I hope this website will become a resource for others who study to Synoptic Gospels. To this end I envision it as a starting point for discussion on how these texts can be analyzed in new ways, and what questions can be investigated when engaging with the texts in a digital medium.
 
