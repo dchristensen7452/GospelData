@@ -112,11 +112,12 @@
             
             <!-- Footer -->
             <footer class="page-footer sticky-bottom font-small teal py-2 bg-dark text-white">
+                <div class="container-fluid text-center text-md-left d-md-none">Daniel K. Christensen | Copyright 2019</div>
                 <div class="container-fluid text-center text-md-left d-none d-md-block">
                     <div class="row">
                         <div class="col-md-2.5 pl-5">
                             <a href="https://goo.gl/images/BkMKMf" target="_blank">
-                                <img src="images/book-of-kells-gospels.jpg" style="width: 100px; width: 100px;"/>
+                                <img src="images/book-of-kells-gospels.jpg" style="width: 100px; width: 100px;">
                             </a>
                         </div>
                         <div class="col-md">

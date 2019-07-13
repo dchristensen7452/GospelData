@@ -8,8 +8,8 @@
 
 			<head>
 				<title>
-					<xsl:value-of select="/table/rows/row[51]/value[1]"/> - <xsl:value-of
-						select="/table/rows/row[51]/value[9]"/>
+					<xsl:value-of select="/table/rows/row[38]/value[1]"/> - <xsl:value-of
+						select="/table/rows/row[38]/value[9]"/>
 				</title>
 				<meta name="author" content="Daniel Christensen"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -72,10 +72,10 @@
 				<div class="jumbotron jumbotron-fluid text-center">
 					<div class="container-fluid title-bkg">
 						<p id="testTitle" class="title">
-							<xsl:value-of select="/table/rows/row[51]/value[9]"/>
+							<xsl:value-of select="/table/rows/row[38]/value[9]"/>
 						</p>
 						<p class="subtitle d-none d-md-block">Synopsis #<xsl:value-of
-								select="/table/rows/row[51]/value[1]"/>
+								select="/table/rows/row[38]/value[1]"/>
 						</p>
 					</div>
 				</div>
@@ -87,25 +87,25 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col div-center">
-							<a href="{table/rows/row[51]/value[33]}.html" class="btn btn-lg btn-outline-dark narrow" type="button">
+							<a href="{table/rows/row[38]/value[33]}.html" class="btn btn-lg btn-outline-dark narrow" type="button">
 								<span class="d-none d-md-block">Previous</span>
 								<i class="fas fa-arrow-circle-left"/>
 							</a>
 						</div>
 						<div class="col">
 							<div class="container-fluid d-none d-md-block">
-								<a href="{table/rows/row[51]/value[30]}" target="_blank">
+								<a href="{table/rows/row[38]/value[30]}" target="_blank">
 									<img class="img-fluid rounded mx-auto d-md-block"
 										style="max-height: 500px" alt="Responsive image"
-										src="../images/{table/rows/row[51]/value[31]}"/>
+										src="../images/{table/rows/row[38]/value[31]}"/>
 								</a>
 								<p class="text-center">
-									<xsl:value-of select="/table/rows/row[51]/value[29]"/>
+									<xsl:value-of select="/table/rows/row[38]/value[29]"/>
 								</p>
 							</div>
 						</div>
 						<div class="col div-center">
-							<a href="{table/rows/row[51]/value[32]}.html" class="btn btn-lg btn-outline-dark narrow" type="button">
+							<a href="{table/rows/row[38]/value[32]}.html" class="btn btn-lg btn-outline-dark narrow" type="button">
 								<span class="d-none d-md-block">Next</span>
 								<i class="fas fa-arrow-circle-right"/>
 							</a>
@@ -482,30 +482,30 @@
 					<div class="top row px-3">
 						<div name="Matt" class="contrastbkg m-md-4 col-md">
 							<div class="container-fluid text-center"><h3>Matthew <xsl:value-of
-										select="/table/rows/row[51]/value[2]"/>
+										select="/table/rows/row[38]/value[2]"/>
 								</h3></div>
-							<xsl:apply-templates select="table/rows/row[51]/Matt/results/rows"/>
+							<xsl:apply-templates select="table/rows/row[38]/Matt/results/rows"/>
 							<br/><br/>&#xA0; <p class="container-fluid text-right bottom pr-5"
 									><b>Word Count: <xsl:value-of
-										select="/table/rows/row[51]/value[10]"/></b></p>
+										select="/table/rows/row[38]/value[10]"/></b></p>
 						</div>
 						<div name="Mark" class="contrastbkg m-md-4 col-md text-column">
 							<div class="container-fluid text-center"><h3>Mark <xsl:value-of
-										select="/table/rows/row[51]/value[3]"/>
+										select="/table/rows/row[38]/value[3]"/>
 								</h3></div>
-							<xsl:apply-templates select="table/rows/row[51]/Mark/results/rows"/>
+							<xsl:apply-templates select="table/rows/row[38]/Mark/results/rows"/>
 							<br/><br/>&#xA0; <p class="container-fluid text-right bottom pr-5"
 									><b>Word Count: <xsl:value-of
-										select="/table/rows/row[51]/value[11]"/></b></p>
+										select="/table/rows/row[38]/value[11]"/></b></p>
 						</div>
 						<div name="Luke" class="contrastbkg m-md-4 col-md">
 							<div class="container-fluid text-center"><h3>Luke <xsl:value-of
-										select="/table/rows/row[51]/value[4]"/>
+										select="/table/rows/row[38]/value[4]"/>
 								</h3></div>
-							<xsl:apply-templates select="table/rows/row[51]/Luke/results/rows"/>
+							<xsl:apply-templates select="table/rows/row[38]/Luke/results/rows"/>
 							<br/><br/>&#xA0; <p class="container-fluid text-right bottom pr-5"
 									><b>Word Count: <xsl:value-of
-										select="/table/rows/row[51]/value[12]"/></b></p>
+										select="/table/rows/row[38]/value[12]"/></b></p>
 						</div>
 					</div>
 				</div>
@@ -515,12 +515,12 @@
 					<div class="row">
 						<div name="John" class="contrastbkg m-md-4 col-md">
 							<div class="container-fluid text-center"><h3>John <xsl:value-of
-										select="/table/rows/row[51]/value[5]"/>
+										select="/table/rows/row[38]/value[5]"/>
 								</h3></div>
-							<xsl:apply-templates select="table/rows/row[51]/John/results/rows"/>
+							<xsl:apply-templates select="table/rows/row[38]/John/results/rows"/>
 							<br/><br/>&#xA0; <p class="container-fluid text-right bottom pr-5"
 									><b>Word Count: <xsl:value-of
-										select="/table/rows/row[51]/value[13]"/></b></p>
+										select="/table/rows/row[38]/value[13]"/></b></p>
 						</div>
 					</div>
 				</div>
@@ -554,64 +554,64 @@
 									<tr>
 										<th scope="row">Unique Matthew</th>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[14]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[14]"/>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[15]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[15]"/>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Unique Mark</th>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[16]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[16]"/>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[17]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[17]"/>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Unique Luke</th>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[18]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[18]"/>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[19]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[19]"/>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Matthew and Mark</th>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[20]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[20]"/>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[21]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[21]"/>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Mark and Luke</th>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[22]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[22]"/>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[23]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[23]"/>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Matthew and Luke</th>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[24]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[24]"/>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[25]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[25]"/>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Triple</th>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[26]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[26]"/>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[27]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[27]"/>
 										</td>
 									</tr>
 									<tr>
@@ -620,7 +620,7 @@
 											<b>Total Words</b>
 										</td>
 										<td>
-											<xsl:value-of select="/table/rows/row[51]/value[28]"/>
+											<xsl:value-of select="/table/rows/row[38]/value[28]"/>
 										</td>
 									</tr>
 								</tbody>
@@ -632,36 +632,25 @@
 
 				<!-- Footer -->
 				<footer class="page-footer sticky-bottom font-small teal py-2 bg-dark text-white">
+					<div class="container-fluid text-center text-md-left d-md-none">Daniel K. Christensen | Copyright 2019</div>
 					<div class="container-fluid text-center text-md-left d-none d-md-block">
 						<div class="row">
 							<div class="col-md-2.5 pl-5">
 								<a href="https://goo.gl/images/BkMKMf" target="_blank">
-									<img src="../images/book-of-kells-gospels.jpg"
-										style="width: 100px; width: 100px;"/>
+									<img src="images/book-of-kells-gospels.jpg" style="width: 100px; width: 100px;">
 								</a>
 							</div>
 							<div class="col-md">
 								<p>Gospel Data</p>
 								<p>Copyright 2019</p>
-								<p>
-									<a class="anchor" href="mailto:dkchristensen@uchicago.edu"
-										>Daniel K. Christensen</a>
-								</p>
+								<p><a class="anchor" href="mailto:dkchristensen@uchicago.edu">Daniel K. Christensen</a></p>
 							</div>
 							<div class="col-md">
-								<p>
-									<a class="anchor" href="../index.html">Home</a>
-								</p>
-								<p>
-									<a class="anchor" href="../synopses.html">Synopses</a>
-								</p>
-
-								<p>
-									<a class="anchor" href="../about.html">About</a>
-								</p>
-								<p>
-									<a class="anchor" href="../contact.html">Contact</a>
-								</p>
+								<p><a class="anchor" href="index.html">Home</a></p>
+								<p><a class="anchor" href="synopses.html">Synopses</a></p>
+								
+								<p><a class="anchor" href="about.html">About</a></p>
+								<p><a class="anchor" href="contact.html">Contact</a></p>
 							</div>
 						</div>
 					</div>
@@ -690,7 +679,7 @@
 	<!--XSL StyleSheet Templates-->
 
 	<!--Load Words for Matthew-->
-	<xsl:template match="table/rows/row[51]/Matt/results/rows">
+	<xsl:template match="table/rows/row[38]/Matt/results/rows">
 		<xsl:for-each select="row">
 			<sup>
 				<xsl:value-of select="value[20]"/>
@@ -706,7 +695,7 @@
 	</xsl:template>
 
 	<!--Load Words for Mark-->
-	<xsl:template match="table/rows/row[51]/Mark/results/rows">
+	<xsl:template match="table/rows/row[38]/Mark/results/rows">
 		<xsl:for-each select="row">
 			<sup>
 				<xsl:value-of select="value[20]"/>
@@ -722,7 +711,7 @@
 	</xsl:template>
 
 	<!--Load Words for Luke-->
-	<xsl:template match="table/rows/row[51]/Luke/results/rows">
+	<xsl:template match="table/rows/row[38]/Luke/results/rows">
 		<xsl:for-each select="row">
 			<sup>
 				<xsl:value-of select="value[20]"/>
@@ -738,7 +727,7 @@
 	</xsl:template>
 
 	<!--Load Words for John-->
-	<xsl:template match="table/rows/row[51]/John/results/rows">
+	<xsl:template match="table/rows/row[38]/John/results/rows">
 		<xsl:for-each select="row">
 			<sup>
 				<xsl:value-of select="value[21]"/>
